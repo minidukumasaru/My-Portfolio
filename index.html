@@ -3,15 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
+    <style>
+        header{
+            position: relative;
+            display: inline-block;
+            width: 100vw;
+            background-color: grey;
+            height: 80px;
+        }
+        header>section{
+            display: flex;
+        }
+        header>section>img{
+            width: 60px;
+            height: 60px;
+            bottom: 10px;
+            position: absolute;
+            left: 25px;
+        }
+        header>nav{
+            top: 20px;
+            position: absolute;
+            right: 30px;
+            height: fit-content;
+        }
+        header>nav>ul>li{
+            display: inline-block;
+            right: 0;
+            padding-left: 20px;
+        }
+        header>nav>ul>li>a{
+            text-decoration: none;
+            font-size: 15px;
+            color: white;
+
+        }
+        header>nav>ul>li>a:hover{
+            color: #FD6B11;
+        }
+
+    </style>
 </head>
 <body>
 <!--Header section-->
 <header>
     <section>
         <img src="Asserts/Images/IMG_5276.PNG" title="My photo" alt="My Photo" width="50">
-    </section>
-    <section>
-        <h3>Minidu</h3>
     </section>
     <!--nav section-->
     <nav>
