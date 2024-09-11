@@ -1,9 +1,10 @@
 header{
-    position: relative;
+    position: fixed;
     display: inline-block;
-    width: 100vw;
+    width: 100%;
     background-color: grey;
     height: 80px;
+    top: 0;
 }
 header>section{
     display: flex;
@@ -16,15 +17,18 @@ header>section>img{
     left: 25px;
 }
 header>nav{
-    top: 20px;
     position: absolute;
-    right: 30px;
     height: fit-content;
+    right: 30px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 header>nav>ul>li{
     display: inline-block;
     right: 0;
     padding-left: 20px;
+    margin: 0px 20px;
 }
 header>nav>ul>li>a{
     text-decoration: none;
