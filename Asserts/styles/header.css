@@ -5,6 +5,7 @@ header{
     background-color: grey;
     height: 80px;
     top: 0;
+    z-index: 9999;
 }
 header>section{
     display: flex;
