@@ -4,38 +4,124 @@
     <meta charset="UTF-8">
     <title>portfolio</title>
     <link rel="stylesheet" href="./Asserts/styles/header.css">
+    <link rel="stylesheet " href="./Asserts/styles/welcome.css">
     <style>
-        #welcome{
-            display: flex;
-            position:absolute;
-            background-color: black;
-            width: 100%;
-            height: 800px;
-            margin-top: 60px;
-
-        }
-        #welcome>div>img{
-            width: 600px;
-            margin-left: 200px;
-            position: absolute;
-        }
-
-        #welcome>div>h1{
-            color: white;
-            position: absolute;
-            font-size: 200px;
-            display: flex;
-            left: 800px;
-            bottom: 300px;
+        *{
             margin: 0;
+            padding: 0;
+        }
+        footer{
+            background: black;
+            width: 100vw;
+            height: 400px;
 
         }
-        #welcome>div>h3{
-            color: white;
+        footer>section>div>img{
+            width: 50px;
+            height: 50px;
             position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+           margin-top: 50px;
+        }
+        footer>section:first-child>div:nth-child(1)>img{
+            right: 40vw;
+            z-index: 9999;
+        }
+        footer>section:first-child>div:nth-child(2)>img{
+            right: 20vw;
+            z-index: 9999;
+        }
+        footer>section:first-child>div:nth-child(3)>img{
+            left: 0;
+            z-index: 9999;
+        }
+        footer>section:first-child>div:nth-child(4)>img{
+            left: 20vw;
+            z-index: 9999;
+        }
+        footer>section:first-child>div:nth-child(5)>img{
+            left: 40vw;
+            z-index: 9999;
+        }
+        footer>section:nth-child(2)>div{
+            height: 90px;
+            width: 90px;
+            background-color: black;
+            position: absolute;
+            display: inline;
+            border-radius: 20px;
+            left: 0;
+            right: 0;
+            margin: auto;
+            margin-top: 30px;
+            border: 2px solid #FD6B11;
+        }
+        footer>section:nth-child(2)>div:nth-child(1){
+            right: 40vw;
+
+        }
+        footer>section:nth-child(2)>div:nth-child(2){
+            right: 20vw;
+        }
+        footer>section:nth-child(2)>div:nth-child(3){
+            left: 0;
+        }
+        footer>section:nth-child(2)>div:nth-child(4){
+            left: 20vw;
+        }
+        footer>section:nth-child(2)>div:nth-child(5){
+            left: 40vw;
+        }
+        footer>section:nth-child(3)>p{
+            color: grey;
+            font-size: 20px;
+            position: absolute;
+            left: 400px;
+            margin-right: 1000px;
+            margin-top: 200px;
+
+
+        }
+        footer>section:nth-child(3)>div{
+            color: #FD6B11;
             font-size: 30px;
-            left:1000px;
-            bottom: 270px;
+            position: absolute;
+            left: 400px;
+            margin-top: 280px;
+        }
+        footer>section:nth-child(4)>h4{
+            color: white;
+            font-size: 25px;
+            position: absolute;
+            right: 700px;
+            margin-top: 200px;
+        }
+        footer>section:nth-child(4)>ul{
+            color: grey;
+            text-decoration: none;
+            position: absolute;
+            right: 700px;
+            margin-top: 250px;
+        }
+        footer>section:nth-child(4)>ul>li>a{
+            color: grey;
+            font-size: 20px;
+        }
+        footer>section:nth-child(5)>h3:first-child>a{
+            position: absolute;
+            color: #FD6B11;
+            font-size: 25px;
+            right: 200px;
+            margin-top: 360px;
+        }
+        footer>section:nth-child(5)>h3:nth-child(2)>a{
+            position: absolute;
+            color: white;
+            font-size: 25px;
+            right: 65px;
+            margin-top: 360px;
         }
 
     </style>
@@ -74,15 +160,23 @@
 <main id="Home">
     <section>
         <h1>Hi i'm </h1>
-        <h1>Minidu Kumasaru</h1>
-    </section>
-    <section>
-        <h3>I am Minidu Kumasaru , and currently an undergraduate software engineer. With a passion for technology and a curiosity that drives me, i am on an exciting journey to master the art of crafting innovative and user-friendly software solutions.</h3>
-    </section>
-    <section>
+        <h2>Minidu Kumasaru...</h2>
+        <h3>I am Minidu Kumasaru , and currently an
+            undergraduate software engineer. With a
+            passion for technology and a curiosity that
+            drives me, i am on an exciting journey to
+            master the art of crafting innovative and
+            user-friendly software solutions.
+        </h3>
         <h4>FIND WITH ME</h4>
     </section>
     <section>
+        <img src="Asserts/Images/IMG_5277%20(1).PNG" title="My photo" alt="My Photo" width="200">
+    </section>
+    <section>
+        <div>
+            <img src="Asserts/Images/icons8-message-50.png" title="Message" alt="Message">
+        </div>
         <div>
             <img src="Asserts/Images/icons8-facebook-100.png" title="Facebook" alt="Facebook">
         </div>
@@ -92,254 +186,252 @@
         <div>
             <img src="Asserts/Images/icons8-linkedin-100.png" title="Linkedin" alt="Linkedin">
         </div>
-       <div>
-           <img src="Asserts/Images/IMG_5277%20(1).PNG" title="My photo" alt="My Photo" width="200">
-       </div>
+
     </section>
 
 </main>
 
 <!--About section-->
-<main id="about">
-    <section>
-        <h3>Visit my portfolio and keep your feedback</h3>
-        <div>
-            <h1>ABOUT ME</h1>
-        </div>
-    </section>
-    <section>
-        <img src="Asserts/Images/IMG_5276.PNG"title="My photo" alt="My Photo" width="200">
-        <div>
-            <h4>NAME: W.K.Minidu Kumasaru</h4>
-            <h4>BIRTHDAY: 25 January 2001</h4>
-            <h4>NATIONALITY: Sinhala</h4>
-            <h4>ADDRESS: Opanayaka,Rathnapura</h4>
-            <h4>LANGUAGES: English,Sinhala</h4>
-            <h4>PHONE: 076-7857175</h4>
-            <h4>EMAIL: Kumasaruminidu@gmail.com</h4>
-        </div>
-    </section>
-    <section>
-        <button>DOWNLOAD MY CV</button>
-    </section>
+<!--<main id="about">-->
+<!--    <section>-->
+<!--        <h3>Visit my portfolio and keep your feedback</h3>-->
+<!--        <div>-->
+<!--            <h1>ABOUT ME</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <img src="Asserts/Images/IMG_5276.PNG"title="My photo" alt="My Photo" width="200">-->
+<!--        <div>-->
+<!--            <h4>NAME: W.K.Minidu Kumasaru</h4>-->
+<!--            <h4>BIRTHDAY: 25 January 2001</h4>-->
+<!--            <h4>NATIONALITY: Sinhala</h4>-->
+<!--            <h4>ADDRESS: Opanayaka,Rathnapura</h4>-->
+<!--            <h4>LANGUAGES: English,Sinhala</h4>-->
+<!--            <h4>PHONE: 076-7857175</h4>-->
+<!--            <h4>EMAIL: Kumasaruminidu@gmail.com</h4>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <button>DOWNLOAD MY CV</button>-->
+<!--    </section>-->
 
-</main>
+<!--</main>-->
 
 <!--Professional Skills section-->
-<main id="skill">
-    <section>
-        <h3>Always adding something to my Skills</h3>
-        <div>
-            <h1>PROFESSIONAL SKILLS</h1>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h4>Git hub</h4>
-            <img src="Asserts/Images/icons8-github-100.png" title="Git hub" alt="Git hub">
-        </div>
-        <div>
-            <h4>HTML</h4>
-            <img src="Asserts/Images/icons8-html-48.png" title="HTML" alt="HTML">
-        </div>
-        <div>
-            <h4>Mysql</h4>
-            <img src="Asserts/Images/icons8-mysql-100.png" title="Mysql" alt="Mysql">
-        </div>
-        <div>
-            <h4>Java</h4>
-            <img src="Asserts/Images/icons8-java-48.png" title="Java" alt="Java">
-        </div>
-    </section>
-    <section>
-        <div>
-            <h4>CSS</h4>
-            <img src="Asserts/Images/icons8-css-96.png" title="CSS" alt="CSS">
-        </div>
-        <div>
-            <h4>Photoshop</h4>
-            <img src="Asserts/Images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">
-        </div>
-        <div>
-            <h4>Photoshop</h4>
-            <img src="Asserts/Images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">
-        </div>
-    </section>
+<!--<main id="skill">-->
+<!--    <section>-->
+<!--        <h3>Always adding something to my Skills</h3>-->
+<!--        <div>-->
+<!--            <h1>PROFESSIONAL SKILLS</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div>-->
+<!--            <h4>Git hub</h4>-->
+<!--            <img src="Asserts/Images/icons8-github-100.png" title="Git hub" alt="Git hub">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h4>HTML</h4>-->
+<!--            <img src="Asserts/Images/icons8-html-48.png" title="HTML" alt="HTML">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h4>Mysql</h4>-->
+<!--            <img src="Asserts/Images/icons8-mysql-100.png" title="Mysql" alt="Mysql">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h4>Java</h4>-->
+<!--            <img src="Asserts/Images/icons8-java-48.png" title="Java" alt="Java">-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div>-->
+<!--            <h4>CSS</h4>-->
+<!--            <img src="Asserts/Images/icons8-css-96.png" title="CSS" alt="CSS">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h4>Photoshop</h4>-->
+<!--            <img src="Asserts/Images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h4>Photoshop</h4>-->
+<!--            <img src="Asserts/Images/icons8-photoshop-96.png" title="Photoshop" alt="Photoshop">-->
+<!--        </div>-->
+<!--    </section>-->
 
-</main>
-<!--Gallery section-->
-<main id="gallery">
-    <section>
-        <h3>Capturing Moment,Creation Memories</h3>
-        <div>
-            <h1>GALLERY</h1>
-        </div>
-    </section>
-    <section>
-        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">
-        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">
-        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">
-    </section>
-</main>
+<!--</main>-->
+<!--&lt;!&ndash;Gallery section&ndash;&gt;-->
+<!--<main id="gallery">-->
+<!--    <section>-->
+<!--        <h3>Capturing Moment,Creation Memories</h3>-->
+<!--        <div>-->
+<!--            <h1>GALLERY</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">-->
+<!--        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">-->
+<!--        <img src="Asserts/Images/autumn-leaves-background-free-photo.jpg"title="Gallery photo"alt="Gallery photo" width="200">-->
+<!--    </section>-->
+<!--</main>-->
 
-<!--Project section-->
-<main id="project">
-    <section>
-        <h3>Discover out latest project</h3>
-        <div>
-            <h1>PROJECT</h1>
-        </div>
-    </section>
-    <section>
-        <img src="Asserts/Images/images.jpeg" title="Connect 4 Game" alt="Connect 4 Game" width="200">
-        <div>
-            <h4>CONNECT 4 GAME</h4>
-            <div>
-                <p>
-                    Connect 4 Game is my first Java project, where players aim to connect four discs in a row.This project taught me essential Java programming and game development skills.
-                </p>
-            </div>
-        </div>
-    </section>
+<!--&lt;!&ndash;Project section&ndash;&gt;-->
+<!--<main id="project">-->
+<!--    <section>-->
+<!--        <h3>Discover out latest project</h3>-->
+<!--        <div>-->
+<!--            <h1>PROJECT</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <img src="Asserts/Images/images.jpeg" title="Connect 4 Game" alt="Connect 4 Game" width="200">-->
+<!--        <div>-->
+<!--            <h4>CONNECT 4 GAME</h4>-->
+<!--            <div>-->
+<!--                <p>-->
+<!--                    Connect 4 Game is my first Java project, where players aim to connect four discs in a row.This project taught me essential Java programming and game development skills.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-    <section>
-        <img src="Asserts/Images/Screenshot%20from%202024-05-26%2001-05-00.png" title="Mvc project" alt="Mvc project" WIDTH="200">
-        <div>
-            <h4>MVC PROJECT</h4>
-            <div>
-                <p>
-                    First semester final project-Hotel Reservation System using MVC architecture in Java
-                </p>
-            </div>
-        </div>
-    </section>
-    <div>
+<!--    <section>-->
+<!--        <img src="Asserts/Images/Screenshot%20from%202024-05-26%2001-05-00.png" title="Mvc project" alt="Mvc project" WIDTH="200">-->
+<!--        <div>-->
+<!--            <h4>MVC PROJECT</h4>-->
+<!--            <div>-->
+<!--                <p>-->
+<!--                    First semester final project-Hotel Reservation System using MVC architecture in Java-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <div>-->
 
-    <section>
-        <img src="Asserts/Images/Screenshot%20from%202024-05-26%2001-05-00.png" title="Layerd Project" alt="Layerd Project" width="200">
-        <div>
-            <h4>LAYERED PROJECT</h4>
-            <div>
-                <p>
-                    Hotel Reservation System, converted from MVC to a Layered architecture in Java.
-                </p>
-            </div>
-        </div>
-    </section>
+<!--    <section>-->
+<!--        <img src="Asserts/Images/Screenshot%20from%202024-05-26%2001-05-00.png" title="Layerd Project" alt="Layerd Project" width="200">-->
+<!--        <div>-->
+<!--            <h4>LAYERED PROJECT</h4>-->
+<!--            <div>-->
+<!--                <p>-->
+<!--                    Hotel Reservation System, converted from MVC to a Layered architecture in Java.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-    </div>
-</main>
-<!--Assignment section-->
-<main id="assignment">
-    <section>
-        <h3>View the latest assignment details</h3>
-        <div>
-            <h1>ASSIGNMENT</h1>
-        </div>
-    </section>
-    <section>
-        <div><h4>Assignment 01</h4></div>
-        <div> <h4>Assignment 02</h4></div>
-        <div><h4>Assignment 03</h4></div>
-    </section>
-    <section>
-        <div><h4>Assignment 04</h4></div>
-        <div> <h4>Assignment 05</h4></div>
-        <div> <h4>Assignment 06</h4></div>
-    </section>
-</main>
+<!--    </div>-->
+<!--</main>-->
+<!--&lt;!&ndash;Assignment section&ndash;&gt;-->
+<!--<main id="assignment">-->
+<!--    <section>-->
+<!--        <h3>View the latest assignment details</h3>-->
+<!--        <div>-->
+<!--            <h1>ASSIGNMENT</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div><h4>Assignment 01</h4></div>-->
+<!--        <div> <h4>Assignment 02</h4></div>-->
+<!--        <div><h4>Assignment 03</h4></div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div><h4>Assignment 04</h4></div>-->
+<!--        <div> <h4>Assignment 05</h4></div>-->
+<!--        <div> <h4>Assignment 06</h4></div>-->
+<!--    </section>-->
+<!--</main>-->
 
-<!--Education section-->
-<main id="education">
-    <section>
-        <h3>There is no end to Education</h3>
-        <div>
-            <h1>EDUCATION</h1>
-        </div>
-    </section>
-    <section>
-        <h6>2007-2024</h6>
-        <div>
-            <h4>Education Quality</h4>
-        </div>
-    </section>
-    <section>
-        <h4>Higher Education</h4>
-        <div>
-            <h6>IJSE Institute(2023-still studying)</h6>
-        </div>
-    </section>
-    <section>
-        <h4>Secondary School Education</h4>
-        <div>
-            <h6>Sivali Central Collage(2011-2019)</h6>
-        </div>
-    </section>
-    <section>
-        <h4>Primary Education</h4>
-        <div>
-            <h6>Vidyakara School-Opanayaka(2006-2011)</h6>
-        </div>
-    </section>
-</main>
-<!--Contact section-->
-<main id="contact">
-    <section>
-        <h3>Contact with me</h3>
-        <div>
-            <h1>CONTACT</h1>
-        </div>
-    </section>
-    <section>
-        <img src="Asserts/Images/digital-transformation-technology-strategy-ideas-adoption-business-age-enhancing-global-capabilities-215266548.webp" title="contact photo" alt="Contact photo" width="200">
-        <div>
-            <h4>Minidu Kumasaru</h4>
-        </div>
-        <div>
-            <p>
-                I am available for freelance work. Connect with me via and call in to my account.
-            </p>
-        </div>
-        <div>
-            <h6>Phone:    </h6>
-            <span>076-7857175</span>
-        </div>
-        <div>
-            <h6>E-mail:   </h6>
-            <span>Kumasaruminidu@gmail.com</span>
-        </div>
-        <div>
-            <h6>Address:   </h6>
-            <span>Dandeniya,Opanayaka,Rathnapura</span>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h5>FIND WITH ME</h5>
-        </div>
-        <div>
-            <img src="Asserts/Images/icons8-facebook-100.png" title="Facebook" alt="Facebook">
-        </div>
-        <div>
-            <img src="Asserts/Images/icons8-whatsapp-64.png" title="Whatsapp" alt="Whatsapp">
-        </div>
-        <div>
-            <img src="Asserts/Images/icons8-linkedin-100.png" title="Linkedin" alt="Linkedin">
-        </div>
-    </section>
-    <SECTION>
-        <input type="text" placeholder="YOUR NAME"><br>
-        <input type="text" placeholder="PHONE NUMBER"><br>
-        <input type="text" placeholder="EMAIL"><br>
-        <input type="text" placeholder="SUBJECT"><br>
-        <textarea placeholder="YOUR MESSAGE"></textarea><br>
-        <button>SEND MESSAGE</button>
-    </SECTION>
-</main>
+<!--&lt;!&ndash;Education section&ndash;&gt;-->
+<!--<main id="education">-->
+<!--    <section>-->
+<!--        <h3>There is no end to Education</h3>-->
+<!--        <div>-->
+<!--            <h1>EDUCATION</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <h6>2007-2024</h6>-->
+<!--        <div>-->
+<!--            <h4>Education Quality</h4>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <h4>Higher Education</h4>-->
+<!--        <div>-->
+<!--            <h6>IJSE Institute(2023-still studying)</h6>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <h4>Secondary School Education</h4>-->
+<!--        <div>-->
+<!--            <h6>Sivali Central Collage(2011-2019)</h6>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <h4>Primary Education</h4>-->
+<!--        <div>-->
+<!--            <h6>Vidyakara School-Opanayaka(2006-2011)</h6>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--</main>-->
+<!--&lt;!&ndash;Contact section&ndash;&gt;-->
+<!--<main id="contact">-->
+<!--    <section>-->
+<!--        <h3>Contact with me</h3>-->
+<!--        <div>-->
+<!--            <h1>CONTACT</h1>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <img src="Asserts/Images/digital-transformation-technology-strategy-ideas-adoption-business-age-enhancing-global-capabilities-215266548.webp" title="contact photo" alt="Contact photo" width="200">-->
+<!--        <div>-->
+<!--            <h4>Minidu Kumasaru</h4>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <p>-->
+<!--                I am available for freelance work. Connect with me via and call in to my account.-->
+<!--            </p>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h6>Phone:    </h6>-->
+<!--            <span>076-7857175</span>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h6>E-mail:   </h6>-->
+<!--            <span>Kumasaruminidu@gmail.com</span>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <h6>Address:   </h6>-->
+<!--            <span>Dandeniya,Opanayaka,Rathnapura</span>-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <section>-->
+<!--        <div>-->
+<!--            <h5>FIND WITH ME</h5>-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <img src="Asserts/Images/icons8-facebook-100.png" title="Facebook" alt="Facebook">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <img src="Asserts/Images/icons8-whatsapp-64.png" title="Whatsapp" alt="Whatsapp">-->
+<!--        </div>-->
+<!--        <div>-->
+<!--            <img src="Asserts/Images/icons8-linkedin-100.png" title="Linkedin" alt="Linkedin">-->
+<!--        </div>-->
+<!--    </section>-->
+<!--    <SECTION>-->
+<!--        <input type="text" placeholder="YOUR NAME"><br>-->
+<!--        <input type="text" placeholder="PHONE NUMBER"><br>-->
+<!--        <input type="text" placeholder="EMAIL"><br>-->
+<!--        <input type="text" placeholder="SUBJECT"><br>-->
+<!--        <textarea placeholder="YOUR MESSAGE"></textarea><br>-->
+<!--        <button>SEND MESSAGE</button>-->
+<!--    </SECTION>-->
+<!--</main>-->
 <footer>
     <section>
         <div>
-            <img src="Asserts/Images/icons8-message-96.png" title="message" alt="message">
+            <img src="Asserts/Images/icons8-message-50.png" title="message" alt="message">
         </div>
         <div>
             <img src="Asserts/Images/icons8-facebook-100.png" title="Facebook" alt="Facebook">
@@ -354,6 +446,13 @@
             <img src="Asserts/Images/icons8-github-50.png" title="Github" alt="github">
         </div>
 
+    </section>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </section>
     <section>
         <p>
@@ -374,7 +473,8 @@
         </ul>
     </section>
     <section>
-        <h3><a href="mailto:Kumasaruminidu@gmail.com">Kumasaruminidu@gmail.com</a></h3>
+        <h3><a href="mailto:Kumasaruminidu@gmail.com">Kumasaruminidu</a></h3>
+        <h3><a href="mailto:Kumasaruminidu@gmail.com">@gmail.com</a></h3>
 
     </section>
 </footer>
