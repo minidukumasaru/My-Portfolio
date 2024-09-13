@@ -1,0 +1,62 @@
+#Home{
+    display: flex;
+    position: relative;
+    background-color: #120D06;
+    width: 100vw;
+    height: 800px;
+}
+#Home>section:first-child>h1{
+    position: absolute;
+    top: 30vh;
+    font-size: 40px;
+    color: white;
+    left: 15vw;
+    margin: 0;
+}
+#Home>section:first-child>h2{
+
+    position: absolute;
+    top: 35vh;
+    font-size: 40px;
+    color: #FD6B11;
+    left: 15vw;
+    margin: 0;
+}
+#Home>section:first-child>h3{
+
+    position: absolute;
+    top: 40vh;
+    font-size: 20px;
+    color: white;
+    left: 15vw;
+    margin-right: 1200px;
+}
+#Home>section:nth-child(2)>img{
+    width: 530px;
+    right: 50px;
+    top: 70px;
+    position: absolute;
+}
+#Home>section:nth-child(3)>div>img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+#Home>section:nth-child(1)>div>img{
+    left: 20px;
+}
+#Home>section:nth-child(2)>div>img{
+    left: 25vw;
+}
+#Home>section:nth-child(3)>div>img{
+    left: 30vw;
+}
+#Home>section:nth-child(4)>div>img{
+    left: 35vw;
+}
