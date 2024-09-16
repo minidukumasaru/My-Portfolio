@@ -1,19 +1,18 @@
 #welcome{
     display: flex;
-    position:absolute;
     background-color: black;
     width: 100%;
     height: 800px;
     margin-top: 60px;
 
 }
-#welcome>div>img{
+#welcome>section>div>img{
     width: 600px;
     margin-left: 200px;
     position: absolute;
 }
 
-#welcome>div>h1{
+#welcome>section>div>h1{
     color: white;
     position: absolute;
     font-size: 200px;
@@ -23,7 +22,7 @@
     margin: 0;
 
 }
-#welcome>div>h3{
+#welcome>section>div>h3{
     color: white;
     position: absolute;
     font-size: 30px;
