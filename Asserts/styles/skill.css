@@ -1,0 +1,72 @@
+#skill{
+    background: #120D06;
+    width: 100vw;
+    height: 800px;
+}
+#skill>section:first-child>h3{
+    color: #FD6B11;
+    position: absolute;
+    left: 40vw;
+}
+#skill>section:first-child>div>h1{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 30vw;
+}
+#skill>section:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+#skill>section:nth-child(2)>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 200px;
+    position: relative;
+    box-shadow: 0 0 30px #FD6B11;
+}
+#skill>section:nth-child(2)>div>h4{
+    font-size: 20px;
+    color: white;
+    margin-top: -45px;
+}
+#skill>section:nth-child(2)>div>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+#skill>section:nth-child(3){
+    display: flex;
+    justify-content: space-evenly;
+}
+#skill>section:nth-child(3)>div{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 190px;
+    position: relative;
+    box-shadow: 0 0 30px #FD6B11;
+}
+#skill>section:nth-child(3)>div>h4{
+    font-size: 20px;
+    color: white;
+    margin-top: -45px;
+}
+#skill>section:nth-child(3)>div>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
