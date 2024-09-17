@@ -33,9 +33,10 @@
 }
 #Home>section:nth-child(2)>img{
     width: 530px;
-    right: 50px;
+    right: 150px;
     top: 70px;
     position: absolute;
+
 }
 #Home>section:nth-child(4)>div>img{
     width: 40px;
@@ -101,4 +102,24 @@
 }
 #Home>section:nth-child(3)>div:nth-child(4){
     right: 65vw;
+}
+#Home>section:first-child>div:nth-child(2){
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    color: #120D06;
+    border: 15px solid #FD6B11;
+    right: 0;
+    bottom: 100px;
+    background-color: #120D06;
+}
+#Home>section:first-child>div:first-child{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    border-radius: 100%;
+    background: linear-gradient(200deg,#FD6B11,white);
+    filter: blur(100px);
+    right: 150px;
+    margin-top: 220px;
 }
