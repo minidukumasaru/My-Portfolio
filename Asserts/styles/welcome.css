@@ -6,26 +6,35 @@
     margin-top: 60px;
 
 }
-#welcome>section>div>img{
+#welcome>section>div:nth-child(2)>img{
     width: 600px;
     margin-left: 200px;
     position: absolute;
+    bottom: 100px;
 }
 
-#welcome>section>div>h1{
+#welcome>section>div:nth-child(2)>h1{
     color: white;
     position: absolute;
     font-size: 200px;
     display: flex;
-    left: 800px;
-    bottom: 300px;
+    left: 900px;
+    bottom: 400px;
     margin: 0;
 
 }
-#welcome>section>div>h3{
+#welcome>section>div:nth-child(2)>h3{
     color: white;
     position: absolute;
     font-size: 30px;
-    left:1000px;
-    bottom: 270px;
+    left:1100px;
+    bottom: 370px;
+}
+#welcome>section>div:first-child{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    border: 10px solid white;
+    top: 183px;
+    left: 150px;
 }
