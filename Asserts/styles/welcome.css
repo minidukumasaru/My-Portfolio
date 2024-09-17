@@ -6,14 +6,14 @@
     margin-top: 60px;
 
 }
-#welcome>section>div:nth-child(2)>img{
+#welcome>section>div:nth-child(3)>img{
     width: 600px;
     margin-left: 200px;
     position: absolute;
     bottom: 100px;
 }
 
-#welcome>section>div:nth-child(2)>h1{
+#welcome>section>div:nth-child(3)>h1{
     color: white;
     position: absolute;
     font-size: 200px;
@@ -23,18 +23,30 @@
     margin: 0;
 
 }
-#welcome>section>div:nth-child(2)>h3{
+#welcome>section>div:nth-child(3)>h3{
     color: white;
     position: absolute;
     font-size: 30px;
     left:1100px;
     bottom: 370px;
 }
-#welcome>section>div:first-child{
+#welcome>section>div:nth-child(2){
     position: absolute;
     width: 500px;
     height: 600px;
     border: 10px solid white;
     top: 183px;
     left: 150px;
+    background: black;
 }
+#welcome>section>div:first-child{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    background: linear-gradient(120deg,#FD6B11,white);
+    filter: blur(100px);
+    left: 60px;
+    margin-top: 70px;
+}
+
