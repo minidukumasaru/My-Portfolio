@@ -1,7 +1,7 @@
 #welcome{
     display: flex;
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 800px;
     margin-top: 60px;
 
@@ -10,7 +10,7 @@
     width: 600px;
     margin-left: 200px;
     position: absolute;
-    bottom: 100px;
+    bottom: 57px;
 }
 
 #welcome>section>div:nth-child(3)>h1{
