@@ -18,144 +18,210 @@
     <link rel="stylesheet" href="Asserts/styles/gallery.css">
     <link rel="stylesheet" href="Asserts/styles/education.css">
     <link rel="stylesheet" href="Asserts/styles/project.css">
+<!--    <link rel="stylesheet" href="Asserts/styles/assignment.css">-->
     <style>
         body{
             margin: 0;
             padding: 0;
         }
-        #assignment{
-            background: #120D06;
+        #contact{
+            background: black;
             width: 100vw;
-            height: 800px;
+            height: 1050px;
         }
-        #assignment>section:nth-child(1)>h3{
+        #contact>section:nth-child(1)>h3{
             color: #FD6B11;
             position: absolute;
             left: 40vw;
         }
-        #assignment>section:nth-child(1)>div>h1{
+        #contact>section:nth-child(1)>div>h1{
             color: white;
             font-size: 60px;
             position: absolute;
-            left: 37vw;
+            left: 36vw;
         }
-        :root{
-            --background-dark: #2d3548;
-            --text-light: rgba(255,255,255,0.6);
-            --text-lighter: rgba(255,255,255,0.9);
-            --spacing-s: 8px;
-            --spacing-m: 16px;
-            --spacing-l: 24px;
-            --spacing-xl: 32px;
-            --spacing-xxl: 64px;
-            --width-container: 1200px;
-        }
-
-        /**{*/
-        /*    border: 0;*/
-        /*    margin: 0;*/
-        /*    padding: 0;*/
-        /*    box-sizing: border-box;*/
-        /*}*/
-
-        /*html{*/
-        /*    height: 100%;*/
-        /*    font-family: 'Montserrat', sans-serif;*/
-        /*    font-size: 14px;*/
-        /*}*/
-
-        body{
-            height: 100%;
-        }
-
-        .hero-section{
-            align-items: flex-start;
-            /*background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);*/
-            display: flex;
-            min-height: 100%;
-            justify-content: center;
-            padding: var(--spacing-xxl) var(--spacing-l);
-        }
-
-        .card-grid{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-column-gap: var(--spacing-l);
-            grid-row-gap: var(--spacing-l);
-            max-width: var(--width-container);
-            width: 100%;
-        }
-
-        @media(min-width: 540px){
-            .card-grid{
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        @media(min-width: 960px){
-            .card-grid{
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-
-        .card{
-            list-style: none;
-            position: relative;
-        }
-
-        .card:before{
-            content: '';
-            display: block;
-            padding-bottom: 150%;
-            width: 100%;
-        }
-
-        .card__background{
-            background-size: cover;
-            background-position: center;
-            border-radius: var(--spacing-l);
-            bottom: 0;
-            filter: brightness(0.75) saturate(1.2) contrast(0.85);
-            left: 0;
+        #contact>section:nth-child(2){
             position: absolute;
+            width: 400px;
+            height: 800px;
+            border-radius: 10px;
+            border: 1px solid white;
+            left: 350px;
+            margin-top: 150px;
+        }
+        #contact>section:nth-child(3){
+            position: absolute;
+            width: 700px;
+            height: 800px;
+            border-radius: 10px;
+            border: 1px solid white;
+            left: 800px;
+            margin-top: 150px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(1)>img{
+            width: 350px;
+            margin-top: 30px;
+            margin-left: 25px;
+            border-radius: 10px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(1)>h4{
+            color: white;
+            font-size: 30px;
+            margin-left: 25px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(1)>p{
+            color: white;
+            margin-left: 25px;
+            margin-top: -20px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(2)>h6{
+            color: gray;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(2)>h5{
+            color: white;
+            font-size: 15px;
+            margin-left: 100px;
+            margin-top: -53px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(3)>h6{
+            color: gray;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(3)>h5{
+            color: white;
+            font-size: 15px;
+            margin-left: 100px;
+            margin-top: -53px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(4)>h6{
+            color: gray;
+            font-size: 15px;
+            margin-left: 25px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(4)>h5{
+            color: white;
+            font-size: 15px;
+            margin-left: 100px;
+            margin-top: -53px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(5)>h5{
+            color: gray;
+            margin-left: 25px;
+            margin-top: 80px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(6){
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            margin-left: 30px;
+            border-radius: 10px;
+            border: 1px solid #FD6B11;
+        }
+        #contact>section:nth-child(2)>div:nth-child(6)>img{
+            width: 40px;
+            height: 40px;
+            margin-left:10px;
+            margin-top: 10px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(7){
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            margin-left: 120px;
+            margin-top: -60px;
+            border-radius: 10px;
+            border: 1px solid #FD6B11;
+        }
+        #contact>section:nth-child(2)>div:nth-child(7)>img{
+            width: 40px;
+            height: 40px;
+            margin-left:10px;
+            margin-top: 10px;
+        }
+        #contact>section:nth-child(2)>div:nth-child(8){
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            margin-left: 210px;
+            margin-top: -60px;
+            border-radius: 10px;
+            border: 1px solid #FD6B11;
+        }
+        #contact>section:nth-child(2)>div:nth-child(8)>img{
+            width: 40px;
+            height: 40px;
+            margin-left:10px;
+            margin-top: 10px;
+        }
+        #contact>section:nth-child(3)>div{
+            margin: 40px;
+            left: 0;
             right: 0;
-            top: 0;
-            transform-origin: center;
-            trsnsform: scale(1) translateZ(0);
-            transition:
-                    filter 200ms linear,
-                    transform 200ms linear;
+
+        }
+        #contact>section:nth-child(3)>div:nth-child(1)>label{
+            color: white;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(2)>label{
+            color: white;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(3)>label{
+            color: white;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(4)>label{
+            color: white;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(5)>label{
+            color: white;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(1)>input {
+            width: 550px;
+            height: 25px;
+            border-radius: 8px;
+            margin-left: 40px;
+
+        }
+        #contact>section:nth-child(3)>div:nth-child(2)>input {
+            width: 550px;
+            height: 25px;
+            border-radius: 8px;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(3)>input {
+            width: 550px;
+            height: 25px;
+            border-radius: 8px;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(4)>input {
+            width: 550px;
+            height: 25px;
+            border-radius: 8px;
+            margin-left: 40px;
+        }
+        #contact>section:nth-child(3)>div:nth-child(5)>textarea {
+            width: 550px;
+            height: 250px;
+            border-radius: 8px;
+            margin-left: 40px;
+
+        }
+        #contact>section:nth-child(3)>div:nth-child(6)>button{
+            width: 550px;
+            height: 30px;
+            border-radius: 8px;
+            margin-left: 40px;
         }
 
-        .card:hover .card__background{
-            transform: scale(1.05) translateZ(0);
-        }
 
-        .card-grid:hover > .card:not(:hover) .card__background{
-            filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
-        }
-
-        .card__content{
-            left: 0;
-            padding: var(--spacing-l);
-            position: absolute;
-            top: 0;
-        }
-
-        .card__category{
-            color: var(--text-light);
-            font-size: 0.9rem;
-            margin-bottom: var(--spacing-s);
-            text-transform: uppercase;
-        }
-
-        .card__heading{
-            color: var(--text-lighter);
-            font-size: 1.9rem;
-            text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
-            line-height: 1.4;
-            word-spacing: 100vw;
-        }
 
 
 
@@ -538,7 +604,6 @@
 <!--    </section>-->
 </main>
 
-
 <!--Contact section-->
 <main id="contact">
     <section>
@@ -548,29 +613,25 @@
         </div>
     </section>
     <section>
+        <div>
         <img src="Asserts/Images/digital-transformation-technology-strategy-ideas-adoption-business-age-enhancing-global-capabilities-215266548.webp" title="contact photo" alt="Contact photo" width="200">
-        <div>
-            <h4>Minidu Kumasaru</h4>
-        </div>
-        <div>
-            <p>
-                I am available for freelance work. Connect with me via and call in to my account.
-            </p>
+        <h4>Minidu Kumasaru</h4>
+        <p>
+            I am available for freelance work. Connect with me via and call in to my account.
+        </p>
         </div>
         <div>
             <h6>Phone:    </h6>
-            <span>076-7857175</span>
+            <h5>076-7857175</h5>
         </div>
         <div>
             <h6>E-mail:   </h6>
-            <span>Kumasaruminidu@gmail.com</span>
+            <h5>Kumasaruminidu@gmail.com</h5>
         </div>
         <div>
             <h6>Address:   </h6>
-            <span>Dandeniya,Opanayaka,Rathnapura</span>
+            <h5>Dandeniya,Opanayaka,Rathnapura</h5>
         </div>
-    </section>
-    <section>
         <div>
             <h5>FIND WITH ME</h5>
         </div>
@@ -584,14 +645,32 @@
             <img src="Asserts/Images/icons8-linkedin-100.png" title="Linkedin" alt="Linkedin">
         </div>
     </section>
-    <SECTION>
-        <input type="text" placeholder="YOUR NAME"><br>
-        <input type="text" placeholder="PHONE NUMBER"><br>
-        <input type="text" placeholder="EMAIL"><br>
-        <input type="text" placeholder="SUBJECT"><br>
-        <textarea placeholder="YOUR MESSAGE"></textarea><br>
-        <button>SEND MESSAGE</button>
-    </SECTION>
+    <section>
+        <div>
+            <label for="Name">YOUR NAME</label><br>
+            <input type="text" id="Name" placeholder="Your Name">
+        </div>
+        <div>
+            <label for="Number">PHONE NUMBER</label><br>
+            <input type="text" id="Number" placeholder="Phone Number">
+        </div>
+        <div>
+            <label for="Email">EMAIL</label><br>
+            <input type="text" id="Email" placeholder="Email">
+        </div>
+        <div>
+            <label for="Subject">SUBJECT</label><br>
+            <input type="text" id="Subject" placeholder="Subject">
+        </div>
+        <div>
+            <label for="Message">YOUR MESSAGE</label><br>
+            <textarea id="Message" placeholder="Your Message" ></textarea>
+        </div>
+        <div>
+            <button>SEND MESSAGE</button>
+        </div>
+
+    </section>
 </main>
 <footer>
     <section>
