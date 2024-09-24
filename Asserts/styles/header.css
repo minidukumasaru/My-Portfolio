@@ -7,12 +7,22 @@ header{
     top: 0;
     z-index: 9999;
 }
+header>section>div{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border-radius: 100%;
+    border: 4px solid white;
+    background: linear-gradient(180deg,black,white);
+    margin-left: 20px;
+    margin-top: 7px;
+}
 header>section{
     display: flex;
 }
 header>section>img{
     width: 60px;
-    height: 60px;
+    height: 70px;
     bottom: 10px;
     position: absolute;
     left: 25px;
