@@ -164,7 +164,7 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
 }
 #contact>section:nth-child(3)>div:nth-child(2)>input {
     width: 550px;
@@ -172,7 +172,7 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
 }
 #contact>section:nth-child(3)>div:nth-child(3)>input {
     width: 550px;
@@ -180,7 +180,7 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
 }
 #contact>section:nth-child(3)>div:nth-child(4)>input {
     width: 550px;
@@ -188,7 +188,7 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
 }
 #contact>section:nth-child(3)>div:nth-child(5)>textarea {
     width: 550px;
@@ -196,7 +196,7 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
 
 }
 #contact>section:nth-child(3)>div:nth-child(6)>button{
@@ -205,6 +205,6 @@
     border-radius: 8px;
     margin-left: 40px;
     background-color: black;
-    box-shadow: inset 1px 2px 5px grey;
+    box-shadow: inset 1px 2px 5px black;
     color: #FD6B11;
 }
