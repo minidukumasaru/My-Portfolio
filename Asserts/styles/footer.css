@@ -102,14 +102,17 @@ footer>section:nth-child(5)>h3:first-child>a{
     position: absolute;
     color: #FD6B11;
     font-size: 25px;
-    right: 200px;
+    /*right: 200px;*/
+    left: 655px;
     margin-top: 340px;
 }
+
 footer>section:nth-child(5)>h3:nth-child(2)>a{
     position: absolute;
     color: white;
     font-size: 25px;
-    right: 65px;
+    /*right: 65px;*/
+    left: 850px;
     margin-top: 340px;
 }
 footer>section:nth-child(6)>div:nth-child(1){
