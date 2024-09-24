@@ -10,19 +10,24 @@ h3{
     color: #FD6B11;
     position: absolute;
     left: 40vw;
+
 }
 h1{
     color: white;
     font-size: 60px;
     position: absolute;
     left: 37vw;
+
 }
 
 .wrapper{
     width: 90%;
     margin: 0 auto;
     max-width: 80rem;
-    background: #0e2945;
+    background: #120D06;
+    position: absolute;
+    margin-top: 134px;
+    left: 300px;
 }
 .cols{
     display: -webkit-box;
