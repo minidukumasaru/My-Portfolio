@@ -30,6 +30,10 @@
     color: white;
     left: 15vw;
     margin-right: 1200px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #Home>section:nth-child(2)>img{
     width: 530px;
@@ -70,9 +74,12 @@
 #Home>section:first-child>h4{
     position: absolute;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     left: 15vw;
    top: 65vh;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #Home>section:nth-child(3)>div{
     height: 60px;

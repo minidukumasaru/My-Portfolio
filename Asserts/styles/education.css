@@ -76,12 +76,15 @@
     margin-top: 70px;
     margin-left: 150px;
     color: darkgrey;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(6)>section:nth-child(2)>h4{
     font-size: 30px;
     color: white;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 140px;
     position: absolute;
 }
 #education>section:nth-child(6)>section:nth-child(2)>div>h6{
@@ -89,6 +92,9 @@
     margin-top: 70px;
     margin-left: 150px;
     color: darkgray;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(6)>section:nth-child(3)>h4{
     font-size: 30px;
@@ -102,6 +108,9 @@
     margin-top: 70px;
     margin-left: 150px;
     color: darkgray;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #education>section:nth-child(3)>div:nth-child(1){
     width: 4px;

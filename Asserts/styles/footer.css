@@ -12,7 +12,7 @@ footer>section>div>img{
     left: 0;
     right: 0;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 footer>section:first-child>div:nth-child(1)>img{
     right: 40vw;
@@ -44,7 +44,7 @@ footer>section:nth-child(2)>div{
     left: 0;
     right: 0;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 15px;
     border: 2px solid #FD6B11;
 }
 footer>section:nth-child(2)>div:nth-child(1){
@@ -70,7 +70,10 @@ footer>section:nth-child(3)>p{
     left: 400px;
     margin-right: 1000px;
     margin-top: 200px;
-
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 
 }
 footer>section:nth-child(3)>div{

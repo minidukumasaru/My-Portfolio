@@ -16,19 +16,37 @@
 #welcome>section>div:nth-child(3)>h1{
     color: white;
     position: absolute;
-    font-size: 200px;
+    font-size: 350px;
+    display: flex;
+    left: 1100px;
+    bottom: 300px;
+    margin: 0;
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#welcome>section>div:nth-child(3)>h2{
+    color: #FD6B11;
+    position: absolute;
+    font-size: 350px;
     display: flex;
     left: 900px;
-    bottom: 400px;
+    bottom: 300px;
     margin: 0;
-
+    font-family: "Island Moments", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 #welcome>section>div:nth-child(3)>h3{
     color: white;
     position: absolute;
     font-size: 30px;
     left:1100px;
-    bottom: 370px;
+    bottom: 360px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #welcome>section>div:nth-child(2){
     position: absolute;

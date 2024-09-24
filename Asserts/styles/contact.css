@@ -49,44 +49,76 @@
     color: white;
     margin-left: 25px;
     margin-top: -20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(2)>h6{
     color: gray;
     font-size: 15px;
     margin-left: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(2)>h5{
     color: white;
     font-size: 15px;
     margin-left: 100px;
     margin-top: -53px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(3)>h6{
     color: gray;
     font-size: 15px;
     margin-left: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(3)>h5{
     color: white;
     font-size: 15px;
     margin-left: 100px;
     margin-top: -53px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(4)>h6{
     color: gray;
     font-size: 15px;
     margin-left: 25px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(4)>h5{
     color: white;
     font-size: 15px;
     margin-left: 100px;
     margin-top: -53px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 #contact>section:nth-child(2)>div:nth-child(5)>h5{
     color: gray;
     margin-left: 25px;
     margin-top: 80px;
+    font-family: "Hubballi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 #contact>section:nth-child(2)>div:nth-child(6){
     width: 60px;
@@ -141,22 +173,48 @@
 #contact>section:nth-child(3)>div:nth-child(1)>label{
     color: white;
     margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 15px;
 }
 #contact>section:nth-child(3)>div:nth-child(2)>label{
     color: white;
     margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 15px;
 }
 #contact>section:nth-child(3)>div:nth-child(3)>label{
     color: white;
     margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 15px;
 }
 #contact>section:nth-child(3)>div:nth-child(4)>label{
     color: white;
     margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 15px;
 }
 #contact>section:nth-child(3)>div:nth-child(5)>label{
     color: white;
     margin-left: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 15px;
 }
 #contact>section:nth-child(3)>div:nth-child(1)>input {
     width: 550px;
@@ -207,4 +265,8 @@
     background-color: black;
     box-shadow: inset 1px 2px 5px black;
     color: #FD6B11;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
