@@ -46,13 +46,26 @@
     margin-top: 11vw;
 }
 #about>section:nth-child(5)>button{
+    width: 200px;
+    height: 40px;
     position: absolute;
     color: #FD6B11;
-    font-size: 15px;
+    font-size: 18px;
     left: 66vw;
     margin-top: 32vw;
     border-radius: 5px;
     background-color: #120D06;
+
+}
+#about>section:nth-child(5)>button:hover{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    left: 66vw;
+    margin-top: 32vw;
+    border-radius: 5px;
+    background-color: #FD6B11;
+    box-shadow: 4px 4px 50px white;
 
 }
 #about>section:first-child>div:nth-child(2){

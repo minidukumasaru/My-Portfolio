@@ -47,6 +47,9 @@ footer>section:nth-child(2)>div{
     margin-top: 15px;
     border: 2px solid #FD6B11;
 }
+footer>section:nth-child(2)>div:hover{
+    box-shadow: 10px 5px 50px white;
+}
 footer>section:nth-child(2)>div:nth-child(1){
     right: 40vw;
 
