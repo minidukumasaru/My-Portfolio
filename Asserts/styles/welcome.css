@@ -1,7 +1,7 @@
 #welcome{
     display: flex;
     background-color: black;
-    width: 100vw;
+    width: 1880px;
     height: 800px;
     margin-top: 60px;
 
@@ -66,5 +66,17 @@
     filter: blur(100px);
     left: 60px;
     margin-top: 70px;
+}
+
+/*media query for large laptop(1440px)*/
+@media all and(max-width: 1440px) {
+    #welcome{
+        display: flex;
+        background-color: black;
+        width: 1440px;
+        height: 800px;
+        margin-top: 60px;
+
+    }
 }
 
