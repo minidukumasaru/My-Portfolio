@@ -1,7 +1,7 @@
 header{
     position: fixed;
     display: inline-block;
-    width: 1880px;
+    width: 100vw;
     background-color: grey;
     height: 80px;
     top: 0;
@@ -54,7 +54,7 @@ header>nav>ul>li>a:hover{
 }
 
 /*media query for large laptop(1440px)*/
-@media all and(max-width: 1440px) {
+@media all and (max-width: 1440px) {
     header{
         position: fixed;
         display: inline-block;

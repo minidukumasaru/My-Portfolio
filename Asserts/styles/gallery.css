@@ -76,26 +76,26 @@
 /*    }*/
 /*}*/
 
-/*!*body {*!*/
-/*!*    margin: 0;*!*/
-/*!*    min-height: 100vh;*!*/
-/*!*    background: #000;*!*/
-/*!*    font-family: sans-serif;*!*/
-/*!*    display: flex;*!*/
-/*!*    justify-content: center;*!*/
-/*!*    align-items: center;*!*/
-/*!*}*!*/
-/*!*#gallery>section:nth-child(2){*!*/
-/*!*    display: flex;*!*/
-/*!*    justify-content: space-evenly;*!*/
-/*!*}*!*/
-/*!*#gallery>section:nth-child(2)>img{*!*/
-/*!*    width: 350px;*!*/
-/*!*    height: 280px;*!*/
-/*!*    margin-top: 200px;*!*/
-/*!*    border-radius: 5px;*!*/
+/*/*body {*/
+/*/*    margin: 0;*/
+/*/*    min-height: 100vh;*/
+/*/*    background: #000;*/
+/*/*    font-family: sans-serif;*/
+/*/*    display: flex;*/
+/*/*    justify-content: center;*/
+/*/*    align-items: center;*/
+/*/*}*/
+/*/*#gallery>section:nth-child(2){*/
+/*/*    display: flex;*/
+/*/*    justify-content: space-evenly;*/
+/*/*}*/
+/*/*#gallery>section:nth-child(2)>img{*/
+/*/*    width: 350px;*/
+/*/*    height: 280px;*/
+/*/*    margin-top: 200px;*/
+/*/*    border-radius: 5px;*/
 
-/*!*}*!*/
+/*/*}*/
 
 /* General gallery styling */
 #gallery {
