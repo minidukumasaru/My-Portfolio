@@ -24,7 +24,7 @@
 }
 #about>section:nth-child(2)>div{
     position: absolute;
-    width: 30vw;
+    width: 35vw;
     height: 25vw;
     border-radius: 10px;
     border: 1px solid #FD6B11;
@@ -88,4 +88,99 @@
     margin-top: 200px;
     left: 150px;
 
+}
+
+/*media query for large laptop(1440px)*/
+@media all and (max-width: 1440px) {
+    #about{
+        background: black;
+        width: 1440px;
+        height: 910px;
+        /*position: relative;*/
+    }
+    #about>section:first-child>div:nth-child(3)>h3{
+        color: #FD6B11;
+        position: absolute;
+        left: 38vw;
+    }
+    #about>section:first-child>div:nth-child(3)>h1{
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        left: 40vw;
+    }
+    #about>section:nth-child(3)>img{
+        width: 400px;
+        position: absolute;
+        left: 14vw;
+        margin-top: 15vw;
+        padding: 0;
+    }
+    #about>section:nth-child(2)>div{
+        position: absolute;
+        width: 37vw;
+        height: 35vw;
+        border-radius: 10px;
+        border: 1px solid #FD6B11;
+        left: 55vw;
+        margin-top: 17vw;
+    }
+    #about>section:nth-child(3)>div{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        left: 58vw;
+        margin-top: 20vw;
+    }
+    #about>section:nth-child(4)>div{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        left: 70vw;
+        margin-top: 20vw;
+    }
+    #about>section:nth-child(5)>button{
+        width: 200px;
+        height: 40px;
+        position: absolute;
+        color: #FD6B11;
+        font-size: 18px;
+        left: 66vw;
+        margin-top: 47vw;
+        border-radius: 5px;
+        background-color: #120D06;
+
+    }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 18px;
+        left: 66vw;
+        margin-top: 32vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
+
+    }
+    #about>section:first-child>div:nth-child(2){
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 100%;
+        border: 10px solid white;
+        background: linear-gradient(180deg,black,white);
+        margin-top: 270px;
+        left: 170px;
+    }
+    #about>section:first-child>div:first-child{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        border-radius: 100%;
+        background: linear-gradient(60deg,#FD6B11,white);
+        filter: blur(100px);
+        margin-top: 250px;
+        left: 150px;
+
+    }
 }
