@@ -198,3 +198,206 @@
     margin-top: 1260px;
     left: 950px;
 }
+/*media query for large laptop(1440px)*/
+@media all and (max-width: 1440px) {
+    #education{
+        width: 1440px;
+        height: 1600px;
+        background: #120D06;
+    }
+    #education>section:first-child>h3{
+        color: #FD6B11;
+        position: absolute;
+        left: 40vw;
+    }
+    #education>section:first-child>div>h1{
+        color: white;
+        font-size: 60px;
+        position: absolute;
+        left: 37vw;
+    }
+    #education>section:nth-child(2)>div{
+        width: 580px;
+        height: 300px;
+        background: linear-gradient(130deg, black 70% ,white 300% );
+        position: absolute;
+        border-radius: 30px;
+        box-shadow:-5px -5px 10px dimgray ;
+    }
+    #education>section:nth-child(2)>div:nth-child(1){
+        margin-top: 330px;
+        left: 700px;
+    }
+    #education>section:nth-child(2)>div:nth-child(2){
+        margin-top: 730px;
+        left: 700px;
+    }
+    #education>section:nth-child(2)>div:nth-child(3){
+        margin-top:1130px;
+        left: 700px;
+    }
+
+    #education>section:nth-child(5)>h6{
+        color: #FD6B11;
+        position: absolute;
+        font-size: 20px;
+        left: 250px;
+        margin-top: 200px;
+    }
+    #education>section:nth-child(5)>div>h4{
+        color: white;
+        position: absolute;
+        font-size: 35px;
+        left: 250px;
+        margin-top: 230px;
+    }
+    #education>section:nth-child(6)>section:nth-child(1){
+        left: 600px;
+        margin-top: 350px;
+    }
+    #education>section:nth-child(6)>section:nth-child(2){
+        left: 600px;
+        margin-top: 750px;
+    }
+    #education>section:nth-child(6)>section:nth-child(3){
+        left: 600px;
+        margin-top: 1150px;
+    }
+    #education>section:nth-child(6)>section{
+        position: absolute;
+    }
+    #education>section:nth-child(6)>section:nth-child(1)>h4{
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 150px;
+
+    }
+    #education>section:nth-child(6)>section:nth-child(1)>div>h6{
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 150px;
+        color: darkgrey;
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #education>section:nth-child(6)>section:nth-child(2)>h4{
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 150px;
+
+    }
+    #education>section:nth-child(6)>section:nth-child(2)>div>h6{
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 150px;
+        color: darkgray;
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #education>section:nth-child(6)>section:nth-child(3)>h4{
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+        margin-left: 150px;
+
+    }
+    #education>section:nth-child(6)>section:nth-child(3)>div>h6{
+        font-size: 20px;
+        margin-top: 70px;
+        margin-left: 150px;
+        color: darkgray;
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #education>section:nth-child(3)>div:nth-child(1){
+        width: 4px;
+        height: 910px;
+        background: white;
+        position: absolute;
+        margin-top: 280px;
+        left: 420px;
+    }
+    #education>section:nth-child(3)>div:nth-child(2){
+        width: 280px;
+        height: 4px;
+        background: white;
+        position: absolute;
+        margin-top: 390px;
+        left: 420px;
+    }
+    #education>section:nth-child(3)>div:nth-child(3){
+        width: 280px;
+        height: 4px;
+        background: white;
+        position: absolute;
+        margin-top: 790px;
+        left: 420px;
+    }
+    #education>section:nth-child(3)>div:nth-child(4){
+        width: 280px;
+        height: 4px;
+        background: white;
+        position: absolute;
+        margin-top: 1190px;
+        left: 420px;
+    }
+    #education>section:nth-child(3)>div:nth-child(5){
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #120D06;
+        border: 4px solid #FD6B11;
+        left: 410px;
+        margin-top: 380px;
+    }
+    #education>section:nth-child(3)>div:nth-child(6){
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #120D06;
+        border: 4px solid #FD6B11;
+        left: 410px;
+        margin-top: 780px;
+    }
+    #education>section:nth-child(3)>div:nth-child(7){
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        position: absolute;
+        background-color: #120D06;
+        border: 4px solid #FD6B11;
+        left: 410px;
+        margin-top: 1180px;
+    }
+    #education>section:nth-child(4)>div:nth-child(1){
+        width: 480px;
+        height: 1px;
+        position: absolute;
+        background-color: #FD6B11;
+        margin-top: 460px;
+        left: 750px;
+    }
+    #education>section:nth-child(4)>div:nth-child(2){
+        width: 480px;
+        height: 1px;
+        position: absolute;
+        background-color: #FD6B11;
+        margin-top: 860px;
+        left: 750px;
+    }
+    #education>section:nth-child(4)>div:nth-child(3){
+        width: 480px;
+        height: 1px;
+        position: absolute;
+        background-color: #FD6B11;
+        margin-top: 1260px;
+        left: 750px;
+    }
+}
