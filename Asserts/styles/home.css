@@ -151,7 +151,7 @@
         display: flex;
         position: relative;
         background-color: #120D06;
-        width: 1880px;
+        width: 1440px;
         height: 910px;
     }
     #Home>section:first-child>h1{
@@ -178,7 +178,7 @@
         font-size: 20px;
         color: white;
         left: 15vw;
-        margin-right: 1200px;
+        margin-right: 800px;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
         font-weight: <weight>;
@@ -186,9 +186,10 @@
     }
     #Home>section:nth-child(2)>img{
         width: 530px;
-        right: 450px;
+        right: 120px;
         top: 70px;
         position: absolute;
+
 
     }
     #Home>section:nth-child(4)>div>img{
@@ -205,20 +206,17 @@
 
     }
     #Home>section:nth-child(4)>div:nth-child(1)>img{
-        left: -30vw;
-        right: 65vw;
+        left: 15vw;
 
     }
     #Home>section:nth-child(4)>div:nth-child(2)>img{
-        left: -15vw;
-        right: 65vw;
+        left: 30vw;
     }
     #Home>section:nth-child(4)>div:nth-child(3)>img{
-        left: 15vw;
-        right: 65vw;
+        left: 39vw;
     }
     #Home>section:nth-child(4)>div:nth-child(4)>img{
-        right: 65vw;
+
     }
     #Home>section:first-child>h4{
         position: absolute;
@@ -259,19 +257,20 @@
 
     }
     #Home>section:nth-child(3)>div:nth-child(1){
-        left: -30vw;
-        right: 65vw;
+        left: 15vw;
+
+
     }
     #Home>section:nth-child(3)>div:nth-child(2){
-        left: -15vw;
-        right: 65vw;
+        left: 30vw;
+
     }
     #Home>section:nth-child(3)>div:nth-child(3){
-        left: 15vw;
-        right: 65vw;
+        left: 38vw;
+
     }
     #Home>section:nth-child(3)>div:nth-child(4){
-        right: 65vw;
+
     }
     #Home>section:first-child>div:nth-child(2){
         position: absolute;
@@ -279,7 +278,7 @@
         height: 400px;
         color: #120D06;
         border: 15px solid #FD6B11;
-        right: 200px;
+        right: -70px;
         bottom: 180px;
         background-color: #120D06;
     }
@@ -290,7 +289,7 @@
         border-radius: 100%;
         background: linear-gradient(200deg,#FD6B11,white);
         filter: blur(100px);
-        right: 350px;
+        right: 100px;
         margin-top: 220px;
     }
 }
