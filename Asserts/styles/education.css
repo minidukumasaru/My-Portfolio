@@ -401,7 +401,7 @@
         left: 750px;
     }
 }
-/*media query for large laptop(1024px)*/
+/*media query for Small laptop(1024px)*/
 @media all and (max-width: 1024px) {
     #education{
         width: 1024px;
