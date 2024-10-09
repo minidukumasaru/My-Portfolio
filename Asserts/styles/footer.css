@@ -304,7 +304,7 @@ footer>section:nth-child(6)>div:nth-child(3){
         margin-top: 160px;
     }
 }
-/*media query for large laptop(1024px)*/
+/*media query for Small laptop(1024px)*/
 @media all and (max-width: 1024px) {
     footer{
         position: absolute;
