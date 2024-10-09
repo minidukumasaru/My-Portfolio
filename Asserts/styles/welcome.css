@@ -70,7 +70,7 @@
 
 /*media query for large laptop(1440px)*/
 @media all and (max-width: 1440px) {
-    #welcome{
+    #welcome {
         display: flex;
         background-color: black;
         width: 1440px;
@@ -78,13 +78,15 @@
         margin-top: 10px;
 
     }
-    #welcome>section>div:nth-child(3)>img{
+
+    #welcome > section > div:nth-child(3) > img {
         width: 600px;
         margin-left: 200px;
         position: absolute;
         bottom: 77px;
     }
-    #welcome>section>div:nth-child(3)>h1{
+
+    #welcome > section > div:nth-child(3) > h1 {
         color: white;
         position: absolute;
         font-size: 350px;
@@ -97,7 +99,8 @@
         font-style: normal;
 
     }
-    #welcome>section>div:nth-child(3)>h2{
+
+    #welcome > section > div:nth-child(3) > h2 {
         color: #FD6B11;
         position: absolute;
         font-size: 350px;
@@ -109,17 +112,19 @@
         font-weight: 400;
         font-style: normal;
     }
-    #welcome>section>div:nth-child(3)>h3{
+
+    #welcome > section > div:nth-child(3) > h3 {
         color: white;
         position: absolute;
         font-size: 30px;
-        left:900px;
+        left: 900px;
         bottom: 360px;
         font-family: "Julius Sans One", sans-serif;
         font-weight: 400;
         font-style: normal;
     }
-    #welcome>section>div:nth-child(2){
+
+    #welcome > section > div:nth-child(2) {
         position: absolute;
         width: 500px;
         height: 600px;
@@ -128,16 +133,18 @@
         left: 150px;
         background: black;
     }
-    #welcome>section>div:first-child{
+
+    #welcome > section > div:first-child {
         position: absolute;
         width: 700px;
         height: 700px;
         border-radius: 100%;
-        background: linear-gradient(120deg,#FD6B11,white);
+        background: linear-gradient(120deg, #FD6B11, white);
         filter: blur(100px);
         left: 60px;
         margin-top: 100px;
     }
+}
 
     /*media query for large laptop(1024px)*/
     @media all and (max-width: 1024px) {
@@ -210,6 +217,6 @@
             left: 60px;
             margin-top: 120px;
         }
-    }
+
 }
 
