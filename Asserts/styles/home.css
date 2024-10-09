@@ -274,11 +274,11 @@
     }
     #Home>section:first-child>div:nth-child(2){
         position: absolute;
-        width: 800px;
+        width: 700px;
         height: 400px;
         color: #120D06;
         border: 15px solid #FD6B11;
-        right: -70px;
+        right: 0px;
         bottom: 180px;
         background-color: #120D06;
     }
@@ -421,11 +421,11 @@
     }
     #Home>section:first-child>div:nth-child(2){
         position: absolute;
-        width: 700px;
+        width: 550px;
         height: 300px;
         color: #120D06;
         border: 15px solid #FD6B11;
-        right: -150px;
+        right: 0px;
         bottom: 200px;
         background-color: #120D06;
     }
