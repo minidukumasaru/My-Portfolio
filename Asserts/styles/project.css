@@ -239,3 +239,126 @@
     }
 }
 
+/*media query for large laptop(1024px)*/
+@media all and (max-width: 1024px) {
+    #project{
+        background: black;
+        width: 1024px;
+        height: 750px;
+        display: flex;
+
+    }
+    #project>section:nth-child(1)>h3{
+        color: #FD6B11;
+        position: absolute;
+        left: 40vw;
+        font-size: 15px;
+    }
+    #project>section:nth-child(1)>div>h1{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        left: 38vw;
+    }
+    #project>section:nth-child(2){
+        display:flex;
+        justify-content:space-between;
+    }
+    #project>section:nth-child(2)>section:nth-child(1){
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 80px;
+        margin-top: 200px;
+        background: linear-gradient(130deg, black 70% ,white 300% );
+        box-shadow:-5px -5px 10px dimgray ;
+
+    }
+    #project>section:nth-child(2)>section:nth-child(2){
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 56px;
+        margin-top: 200px;
+        background: linear-gradient(130deg, black 70% ,white 300% );
+        box-shadow:-5px -5px 10px dimgray ;
+
+    }
+    #project>section:nth-child(2)>section:nth-child(3){
+        width: 250px;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 56px;
+        margin-top: 200px;
+        background: linear-gradient(130deg, black 70% ,white 300% );
+        box-shadow:-5px -5px 10px dimgray ;
+
+    }
+    #project>section:nth-child(2)>section:nth-child(1)>img{
+        width: 200px;
+        height: 150px;
+        transition: all 0.2s ease-in-out;
+        border-radius:20px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #project>section:nth-child(2)>section:nth-child(2)>img{
+        width: 200px;
+        height: 150px;
+        transition: all 0.2s ease-in-out;
+        border-radius:20px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #project>section:nth-child(2)>section:nth-child(3)>img{
+        width: 200px;
+        height: 150px;
+        transition: all 0.2s ease-in-out;
+        border-radius:20px;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    #project>section:nth-child(2)>section:nth-child(1)>img:hover{
+        transform: scale(1.15) translateY(-40px);
+    }
+    #project>section:nth-child(2)>section:nth-child(2)>img:hover{
+        transform: scale(1.15) translateY(-40px);
+    }
+    #project>section:nth-child(2)>section:nth-child(3)>img:hover{
+        transform: scale(1.15) translateY(-40px);
+    }
+    #project>section:nth-child(2)>section:nth-child(1)>div>h4{
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #project>section:nth-child(2)>section:nth-child(2)>div>h4{
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+    }
+    #project>section:nth-child(2)>section:nth-child(3)>div>h4{
+        color: white;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    #project>section:nth-child(2)>section:nth-child(1)>p{
+        color: gray;
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    #project>section:nth-child(2)>section:nth-child(2)>p{
+        color: gray;
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+    #project>section:nth-child(2)>section:nth-child(3)>p{
+        color: gray;
+        font-size: 15px;
+        margin-left: 40px;
+        margin-right: 50px;
+    }
+}
+
