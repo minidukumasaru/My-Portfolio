@@ -285,6 +285,70 @@
     }
 }
 
+/*media query for Mobile size(425px)*/
+@media all and (max-width: 425px) {
+    #gallery {
+        background: black;
+        width: 425px;
+        height: 642px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* Section heading styling */
+    #gallery > section:first-child > h3 {
+        color: #FD6B11;
+        position: absolute;
+        left: 24vw;
+        font-size: 10px;
+    }
+
+    #gallery > section:first-child > div > h1 {
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        left: 27vw;
+    }
+
+    /* Card container */
+    .Container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        margin-left: 50px;
+        overflow: hidden;
+        transform: skew(5deg);
+        width: 350px;
+        height: 550px;
+    }
+    .Card__head {
+        color: black;
+        background: #FD6B11;
+        padding: 0.5em;
+        transform: rotate(-90deg);
+        transform-origin: 0% 0%;
+        transition: all 0.5s ease-in-out;
+        width: 200px;
+        text-align: center;
+        position: absolute;
+        bottom: 80px; /* Start off the card, out of view */
+        left: 0;
+        font-size: 1.0em;
+        white-space: nowrap;
+    }
+    .Card:hover .Card__head {
+        text-align: center;
+        bottom: 0; /* Transition to the bottom of the card */
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        font-size: 1em;
+        transform: rotate(0deg) skew(-5deg);
+    }
+}
+
 
 
 
