@@ -612,7 +612,7 @@
 @media all and (max-width: 375px) {
     #project{
         background: black;
-        width: 425px;
+        width: 375px;
         height: 1600px;
         display: flex;
 
