@@ -1021,7 +1021,7 @@
 /*media query for Mobile size(375px)*/
 @media all and (max-width: 375px) {
     #education{
-        width: 425px;
+        width: 375px;
         height: 950px;
         background: #120D06;
     }
