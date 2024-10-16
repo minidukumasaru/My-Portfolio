@@ -927,3 +927,99 @@ footer>section:nth-child(6)>div:nth-child(3){
         margin-top: 130px;
     }
 }
+
+/*media query for Mobile Small size(320px)*/
+@media all and (max-width: 320px) {
+    footer{
+        position: absolute;
+        background: black;
+        width: 320px;
+        height: 410px;
+
+    }
+
+    footer>section:nth-child(3)>p{
+        color: grey;
+        font-size: 15px;
+        position: absolute;
+        left: 30px;
+        margin-right: 450px;
+        margin-top: 130px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+
+
+    }
+    footer>section:nth-child(3)>div{
+        color: #FD6B11;
+        font-size: 17px;
+        position: absolute;
+        left: 30px;
+        margin-top: 300px;
+    }
+    footer>section:nth-child(4)>h4{
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        right:30px;
+        margin-top: 130px;
+    }
+    footer>section:nth-child(4)>ul{
+        color: grey;
+        text-decoration: none;
+        position: absolute;
+        right: 30px;
+        margin-top: 170px;
+    }
+    footer>section:nth-child(4)>ul>li>a{
+        color: grey;
+        font-size: 15px;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+    footer>section:nth-child(5)>h3:first-child>a{
+        position: absolute;
+        color: #FD6B11;
+        font-size: 13px;
+        /*right: 200px;*/
+        left: 35px;
+        margin-top: 370px;
+    }
+
+    footer>section:nth-child(5)>h3:nth-child(2)>a{
+        position: absolute;
+        color: white;
+        font-size: 13px;
+        /*right: 65px;*/
+        left: 160px;
+        margin-top: 370px;
+    }
+    footer>section:nth-child(6)>div:nth-child(1){
+        width: 100vw;
+        height: 1px;
+        position: absolute;
+        background-color: grey;
+        margin-top: -10px;
+
+    }
+    footer>section:nth-child(6)>div:nth-child(2){
+        width: 100vw;
+        height: 1px;
+        position: absolute;
+        background-color: grey;
+        margin-top: 75px;
+
+    }
+    footer>section:nth-child(6)>div:nth-child(3){
+        width: 1px;
+        height: 160px;
+        position: absolute;
+        background-color: white;
+        margin-left: 170px;
+        margin-top: 130px;
+    }
+}
