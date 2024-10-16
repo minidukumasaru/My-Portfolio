@@ -530,3 +530,89 @@
 
     }
 }
+
+/*media query for Mobile Small size(320px)*/
+@media all and (max-width: 320px) {
+    #about{
+        background: black;
+        width: 320px;
+        height: 800px;
+        /*position: relative;*/
+    }
+    #about>section:first-child>div:nth-child(3)>h3{
+        color: #FD6B11;
+        position: absolute;
+        left: 15vw;
+        font-size: 10px;
+    }
+    #about>section:first-child>div:nth-child(3)>h1{
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        left: 16vw;
+    }
+    #about>section:first-child>div:nth-child(2){
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        border: 8px solid white;
+        background: linear-gradient(180deg,black,white);
+        margin-top: 150px;
+        left: 30px;
+    }
+    #about>section:first-child>div:first-child{
+        position: absolute;
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        background: linear-gradient(60deg,#FD6B11,white);
+        filter: blur(100px);
+        margin-top: 130px;
+        left: 50px;
+
+    }
+    #about>section:nth-child(3)>img{
+        width: 250px;
+        position: absolute;
+        left: 10vw;
+        margin-top: 26vw;
+        padding: 0;
+    }
+    #about>section:nth-child(3)>div {
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 13vw;
+        margin-top: 154vw;
+
+    }
+    #about>section:nth-child(4)>div{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 39vw;
+        margin-top: 154vw;
+    }
+    #about>section:nth-child(2)>div{
+        position: absolute;
+        width: 83vw;
+        height: 70vw;
+        border-radius: 10px;
+        border: 1px solid #FD6B11;
+        left: 9vw;
+        margin-top: 155vw;
+    }
+    #about>section:nth-child(5)>button{
+        width: 180px;
+        height: 30px;
+        position: absolute;
+        color: #FD6B11;
+        font-size: 13px;
+        left: 25vw;
+        margin-top: 213vw;
+        border-radius: 5px;
+        background-color: #120D06;
+
+    }
+}
