@@ -1028,3 +1028,45 @@ h1{
         margin-bottom: 20px;
     }
 }
+
+/*media query for Mobile Small size(320px)*/
+@media all and (max-width: 320px) {
+    #assignment {
+        background: #120D06;
+        width: 320px;
+        height: 2400px;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    h3 {
+        color: #FD6B11;
+        position: absolute;
+        left: 20vw;  /* Adjust positioning based on 1440px width */
+        font-size: 10px;
+    }
+
+    h1 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 15vw;  /* Adjust positioning based on 1440px width */
+    }
+    .front,
+    .back {
+        background-size: cover;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.25);
+        border-radius: 10px;
+        background-position: center;
+        transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+        backface-visibility: hidden;
+        text-align: center;
+        min-height: 250px;
+        height: auto;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 1.5rem;
+        width: 250px;
+        margin-left: 0px;
+    }
+}
