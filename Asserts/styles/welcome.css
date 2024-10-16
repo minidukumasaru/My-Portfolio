@@ -437,7 +437,80 @@
         left: 30px;
         margin-top: 350px;
     }
+}/*media query for Mobile Small size(320px)*/
+@media all and (max-width: 320px) {
+    #welcome{
+        display: flex;
+        background-color: black;
+        width: 320px;
+        height: 800px;
+        margin-top: 50px;
+
+    }
+    #welcome>section>div:nth-child(3)>img{
+        width: 300px;
+        margin-left: 30px;
+        position: absolute;
+        bottom: 34px;
+    }
+
+    #welcome>section>div:nth-child(3)>h1{
+        color: white;
+        position: absolute;
+        font-size: 160px;
+        display: flex;
+        left: 110px;
+        bottom: 470px;
+        margin: 0;
+        font-family: "Island Moments", cursive;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+    #welcome>section>div:nth-child(3)>h2{
+        color: #FD6B11;
+        position: absolute;
+        font-size: 160px;
+        display: flex;
+        left: 15px;
+        bottom: 470px;
+        margin: 0;
+        font-family: "Island Moments", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #welcome>section>div:nth-child(3)>h3{
+        color: white;
+        position: absolute;
+        font-size: 12px;
+        left:130px;
+        bottom: 500px;
+        font-family: "Julius Sans One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #welcome>section>div:nth-child(2){
+        position: absolute;
+        width: 200px;
+        height: 300px;
+        border: 8px solid white;
+        top: 450px;
+        left: 40px;
+        background: black;
+    }
+    #welcome>section>div:first-child{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        background: linear-gradient(120deg,#FD6B11,white);
+        filter: blur(100px);
+        left: 30px;
+        margin-top: 380px;
+    }
 }
+
+
 
 
 
