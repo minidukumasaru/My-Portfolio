@@ -437,7 +437,9 @@
         left: 30px;
         margin-top: 350px;
     }
-}/*media query for Mobile Small size(320px)*/
+}
+
+/*media query for Mobile Small size(320px)*/
 @media all and (max-width: 320px) {
     #welcome{
         display: flex;
