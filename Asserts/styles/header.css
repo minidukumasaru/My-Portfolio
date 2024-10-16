@@ -344,3 +344,16 @@ header>nav>ul>li>a:hover{
     }
 }
 
+/*media query for Mobile Small size(320px)*/
+@media all and (max-width: 320px) {
+    header{
+        position: fixed;
+        display: inline-block;
+        width: 320px;
+        background-color: grey;
+        height: 70px;
+        top: 0;
+        z-index: 9999;
+    }
+}
+
