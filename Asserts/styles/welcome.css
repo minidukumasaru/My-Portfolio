@@ -1,5 +1,5 @@
 #welcome{
-    display: flex;
+    /*display: flex;*/
     background-color: black;
     width: 100vw;
     height: 800px;
@@ -17,7 +17,7 @@
     color: white;
     position: absolute;
     font-size: 350px;
-    display: flex;
+    /*display: flex;*/
     left: 1100px;
     bottom: 300px;
     margin: 0;
@@ -30,7 +30,7 @@
     color: #FD6B11;
     position: absolute;
     font-size: 350px;
-    display: flex;
+    /*display: flex;*/
     left: 900px;
     bottom: 300px;
     margin: 0;
@@ -71,7 +71,7 @@
 /*media query for large laptop(1440px)*/
 @media all and (max-width: 1440px) {
     #welcome {
-        display: flex;
+        /*display: flex;*/
         background-color: black;
         width: 1440px;
         height: 910px;
@@ -90,7 +90,7 @@
         color: white;
         position: absolute;
         font-size: 350px;
-        display: flex;
+        /*display: flex;*/
         left: 900px;
         bottom: 300px;
         margin: 0;
@@ -104,7 +104,7 @@
         color: #FD6B11;
         position: absolute;
         font-size: 350px;
-        display: flex;
+        /*display: flex;*/
         left: 700px;
         bottom: 300px;
         margin: 0;
@@ -149,7 +149,7 @@
     /*media query for small laptop(1024px)*/
     @media all and (max-width: 1024px) {
         #welcome{
-            display: flex;
+            /*display: flex;*/
             background-color: black;
             width: 1024px;
             height: 750px;
@@ -167,7 +167,7 @@
             color: white;
             position: absolute;
             font-size: 250px;
-            display: flex;
+            /*display: flex;*/
             left: 650px;
             bottom: 250px;
             margin: 0;
@@ -180,7 +180,7 @@
             color: #FD6B11;
             position: absolute;
             font-size: 250px;
-            display: flex;
+            /*display: flex;*/
             left: 500px;
             bottom: 250px;
             margin: 0;
@@ -223,7 +223,7 @@
 /*media query for Tablet size(768px)*/
 @media all and (max-width: 768px) {
     #welcome{
-        display: flex;
+        /*display: flex;*/
         background-color: black;
         width: 768px;
         height: 642px;
@@ -241,7 +241,7 @@
         color: white;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 520px;
         bottom: 200px;
         margin: 0;
@@ -254,7 +254,7 @@
         color: #FD6B11;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 400px;
         bottom: 200px;
         margin: 0;
@@ -296,7 +296,7 @@
 /*media query for Mobile size(425px)*/
 @media all and (max-width: 425px) {
     #welcome{
-        display: flex;
+        /*display: flex;*/
         background-color: black;
         width: 425px;
         height: 800px;
@@ -314,7 +314,7 @@
         color: white;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 150px;
         bottom: 470px;
         margin: 0;
@@ -327,7 +327,7 @@
         color: #FD6B11;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 35px;
         bottom: 470px;
         margin: 0;
@@ -369,7 +369,7 @@
 /*media query for Mobile size(375px)*/
 @media all and (max-width: 375px) {
     #welcome{
-        display: flex;
+        /*display: flex;*/
         background-color: black;
         width: 375px;
         height: 800px;
@@ -387,7 +387,7 @@
         color: white;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 130px;
         bottom: 470px;
         margin: 0;
@@ -400,7 +400,7 @@
         color: #FD6B11;
         position: absolute;
         font-size: 200px;
-        display: flex;
+        /*display: flex;*/
         left: 15px;
         bottom: 470px;
         margin: 0;
@@ -442,7 +442,7 @@
 /*media query for Mobile Small size(320px)*/
 @media all and (max-width: 320px) {
     #welcome{
-        display: flex;
+        /*display: flex;*/
         background-color: black;
         width: 320px;
         height: 800px;
@@ -460,7 +460,7 @@
         color: white;
         position: absolute;
         font-size: 160px;
-        display: flex;
+        /*display: flex;*/
         left: 110px;
         bottom: 470px;
         margin: 0;
@@ -473,7 +473,7 @@
         color: #FD6B11;
         position: absolute;
         font-size: 160px;
-        display: flex;
+        /*display: flex;*/
         left: 15px;
         bottom: 470px;
         margin: 0;
