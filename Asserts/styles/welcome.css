@@ -233,9 +233,10 @@
     }
     #welcome>section>div:nth-child(3)>img{
         width: 350px;
-        margin-left: 90px;
+        margin-left: -140px;
         position: absolute;
-        bottom: 49px;
+        top:85px;
+
     }
 
     #welcome>section>div:nth-child(3)>h1{
@@ -267,8 +268,8 @@
         color: white;
         position: absolute;
         font-size: 15px;
-        left:540px;
-        bottom: 240px;
+        left: 30px;
+        top: -70px;
         font-family: "Julius Sans One", sans-serif;
         font-weight: 400;
         font-style: normal;
