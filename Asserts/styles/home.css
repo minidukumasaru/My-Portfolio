@@ -132,7 +132,6 @@
 /*media query for large laptop(1440px)*/
 @media all and (max-width: 1440px) {
     #Home{
-        /*display: flex;*/
         position: relative;
         background-color: #120D06;
         width: 1440px;
@@ -155,64 +154,46 @@
         left: 15vw;
         margin: 0;
     }
-    #Home>section:first-child>h3{
-
+    #Home>section:nth-child(2)>div{
+        width: 480px;
+        height: 180px;
         position: absolute;
-        top: 40vh;
+        top: 380px;
+        left: 220px;
+    }
+    #Home>section:nth-child(2)>div>p{
+        position: absolute;
         font-size: 20px;
         color: white;
-        left: 15vw;
-        margin-right: 800px;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
         font-weight: <weight>;
         font-style: normal;
     }
-    #Home>section:nth-child(2)>img{
+    #Home>section:nth-child(2)>div>h4{
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        font-family: "Hubballi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    #Home>section:nth-child(3)>img{
         width: 530px;
         right: 120px;
         top: 70px;
         position: absolute;
-
-
     }
     #Home>section:nth-child(4)>div>img{
         width: 40px;
         height: 40px;
         position: absolute;
-        /*left: 35vw;*/
-        top: 76vh;
-
+       top: 10px;
         left: 0;
         right: 0;
         margin: auto;
-
-
     }
-    #Home>section:nth-child(4)>div:nth-child(1)>img{
-        left: 15vw;
-
-    }
-    #Home>section:nth-child(4)>div:nth-child(2)>img{
-        left: 30vw;
-    }
-    #Home>section:nth-child(4)>div:nth-child(3)>img{
-        left: 39vw;
-    }
-    #Home>section:nth-child(4)>div:nth-child(4)>img{
-
-    }
-    #Home>section:first-child>h4{
-        position: absolute;
-        color: white;
-        font-size: 20px;
-        left: 15vw;
-        top: 65vh;
-        font-family: "Hubballi", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-    #Home>section:nth-child(3)>div{
+    #Home>section:nth-child(4)>div{
         height: 60px;
         width: 60px;
         background-color: black;
@@ -226,7 +207,7 @@
         border: 1px solid #FD6B11;
 
     }
-    #Home>section:nth-child(3)>div:hover {
+    #Home>section:nth-child(4)>div:hover {
         height: 70px;
         width: 70px;
         left: 0;
@@ -240,23 +221,23 @@
         box-shadow: 10px 5px 50px grey;
 
     }
-    #Home>section:nth-child(3)>div:nth-child(1){
+    #Home>section:nth-child(4)>div:nth-child(1){
         left: 15vw;
 
 
     }
-    #Home>section:nth-child(3)>div:nth-child(2){
+    #Home>section:nth-child(4)>div:nth-child(2){
         left: 30vw;
 
     }
-    #Home>section:nth-child(3)>div:nth-child(3){
+    #Home>section:nth-child(4)>div:nth-child(3){
         left: 38vw;
 
     }
-    #Home>section:nth-child(3)>div:nth-child(4){
-
+    #Home>section:nth-child(4)>div:nth-child(4){
+        left: 0;
     }
-    #Home>section:first-child>div:nth-child(2){
+    #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
         width: 700px;
         height: 400px;
@@ -266,14 +247,14 @@
         bottom: 180px;
         background-color: #120D06;
     }
-    #Home>section:first-child>div:first-child{
+    #Home>section:nth-child(3)>div:first-child{
         position: absolute;
         width: 700px;
         height: 500px;
         border-radius: 100%;
         background: linear-gradient(200deg,#FD6B11,white);
         filter: blur(100px);
-        right: 100px;
+        right: 50px;
         margin-top: 220px;
     }
 }
