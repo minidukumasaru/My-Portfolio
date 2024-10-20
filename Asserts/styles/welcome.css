@@ -307,9 +307,9 @@
     }
     #welcome>section>div:nth-child(3)>img{
         width: 350px;
-        margin-left: 70px;
+        left: 220px;
+        top: 265px;
         position: absolute;
-        bottom: 29px;
     }
 
     #welcome>section>div:nth-child(3)>h1{
@@ -318,7 +318,7 @@
         font-size: 200px;
         /*display: flex;*/
         left: 150px;
-        bottom: 470px;
+       top: 50px;
         margin: 0;
         font-family: "Island Moments", cursive;
         font-weight: 400;
@@ -329,9 +329,8 @@
         color: #FD6B11;
         position: absolute;
         font-size: 200px;
-        /*display: flex;*/
-        left: 35px;
-        bottom: 470px;
+        left: 30px;
+        top: 50px;
         margin: 0;
         font-family: "Island Moments", cursive;
         font-weight: 400;
@@ -341,8 +340,8 @@
         color: white;
         position: absolute;
         font-size: 15px;
-        left:150px;
-        bottom: 510px;
+        left: -350px;
+        top: -170px;
         font-family: "Julius Sans One", sans-serif;
         font-weight: 400;
         font-style: normal;
