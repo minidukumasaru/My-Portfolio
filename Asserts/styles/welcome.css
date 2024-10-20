@@ -74,7 +74,6 @@
 /*media query for large laptop(1440px)*/
 @media all and (max-width: 1440px) {
     #welcome {
-        /*display: flex;*/
         background-color: black;
         width: 1440px;
         height: 910px;
@@ -84,19 +83,19 @@
 
     #welcome > section > div:nth-child(3) > img {
         width: 600px;
-        margin-left: 200px;
+        margin-left: -30px;
         position: absolute;
-        bottom: 77px;
+        top: 55px;
+
     }
 
     #welcome > section > div:nth-child(3) > h1 {
         color: white;
         position: absolute;
         font-size: 350px;
-        /*display: flex;*/
-        left: 900px;
-        bottom: 300px;
         margin: 0;
+        left: 950px;
+        top: 150px;
         font-family: "Island Moments", cursive;
         font-weight: 400;
         font-style: normal;
@@ -107,10 +106,9 @@
         color: #FD6B11;
         position: absolute;
         font-size: 350px;
-        /*display: flex;*/
-        left: 700px;
-        bottom: 300px;
         margin: 0;
+        left: 750px;
+        top: 150px;
         font-family: "Island Moments", cursive;
         font-weight: 400;
         font-style: normal;
@@ -120,8 +118,8 @@
         color: white;
         position: absolute;
         font-size: 30px;
-        left: 900px;
-        bottom: 360px;
+        left: 480px;
+        top: 50px;
         font-family: "Julius Sans One", sans-serif;
         font-weight: 400;
         font-style: normal;
