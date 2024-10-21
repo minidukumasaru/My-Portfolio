@@ -96,7 +96,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    top: 75vh;
+    bottom: 40px;
     position: absolute;
     border-radius: 20px;
     background-color: #FD6B11;
@@ -237,7 +237,7 @@
         left: 0;
         right: 0;
         margin: auto;
-        top: 75vh;
+        bottom: 40px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -372,12 +372,12 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         left: 0;
         right: 0;
         margin: auto;
-        top: 10px;
+        bottom: 50px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -386,18 +386,18 @@
 
     }
     #Home>section:nth-child(4)>div:nth-child(1){
-        margin-left: 10px;
+        left: -150px;
     }
     #Home>section:nth-child(4)>div:nth-child(2){
-        margin-left: -70px;
+        left:20px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(3){
-        margin-left: -80px;
+        left: 180px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(4){
-        margin-left: 90px;
+        left: -320px;
     }
     #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
@@ -493,7 +493,7 @@
         width: 550px;
         height: 100px;
         position: absolute;
-        top: 500px;
+        top: 520px;
     }
     #Home>section:nth-child(4)>div{
         height: 50px;
@@ -509,12 +509,12 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         left: 0;
         right: 0;
         margin: auto;
-        top:10px;
+        bottom: 50px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -523,18 +523,18 @@
 
     }
     #Home>section:nth-child(4)>div:nth-child(1){
-        margin-left: 10px;
+        left: -200px;
     }
     #Home>section:nth-child(4)>div:nth-child(2){
-        margin-left: -40px;
+        left: -40px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(3){
-        margin-left: -40px;
+        left: 120px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(4){
-        margin-left: 60px;
+        left: -350px;
     }
     #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
@@ -653,12 +653,12 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         left: 0;
         right: 0;
         margin: auto;
-        top: 10px;
+        bottom: 50px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -667,18 +667,18 @@
 
     }
     #Home>section:nth-child(4)>div:nth-child(1){
-        margin-left: 70px;
+        left: -200px;
     }
     #Home>section:nth-child(4)>div:nth-child(2){
-        margin-left: 90px;
+        left: -20px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(3){
-        margin-left: 150px;
+        left: 150px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(4){
-        margin-left: 50px;
+        left: -380px;
     }
     #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
@@ -791,12 +791,12 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
         left: 0;
         right: 0;
         margin: auto;
-        top: 10px;
+        bottom: 70px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -805,18 +805,18 @@
 
     }
     #Home>section:nth-child(4)>div:nth-child(1){
-        margin-left: 70px;
+        left: -240px;
     }
     #Home>section:nth-child(4)>div:nth-child(2){
-        margin-left: 90px;
+        left: -80px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(3){
-        margin-left: 135px;
+        left: 80px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(4){
-        margin-left: 50px;
+        left: -400px;
     }
     #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
@@ -937,25 +937,25 @@
         margin: auto;
         position: absolute;
         border-radius: 20px;
-        top: 70vh;
+        bottom: 70px;
         background-color: #FD6B11;
         border: 1px solid white;
         box-shadow: 10px 5px 50px grey;
 
     }
     #Home>section:nth-child(4)>div:nth-child(1){
-        margin-left: 50px;
+        left: -280px;
     }
     #Home>section:nth-child(4)>div:nth-child(2){
-        margin-left: 70px;
+        left: -140px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(3){
-        margin-left: 115px;
+        left: 0px;
 
     }
     #Home>section:nth-child(4)>div:nth-child(4){
-        margin-left: 30px;
+        left: -420px;
     }
     #Home>section:nth-child(3)>div:nth-child(2){
         position: absolute;
