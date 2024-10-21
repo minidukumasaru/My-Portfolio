@@ -116,6 +116,15 @@
     margin-left: 80px;
     margin-right: 80px;
 }
+#project>section:nth-child(2)>section>button{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: #FD6B11;
+    margin-left: 130px;
+
+}
 
 /*media query for large laptop(1440px)*/
 @media all and (max-width: 1440px) {
