@@ -118,12 +118,18 @@
 }
 #project>section:nth-child(2)>section>button{
     width: 150px;
-    height: 30px;
-    border-radius: 5px;
+    height: 35px;
+    border-radius: 10px;
     border: 2px solid white;
-    background-color: #FD6B11;
+    background-color: white;
     margin-left: 130px;
+    font-size: 20px;
+    font-weight: bold;
 
+}
+#project>section:nth-child(2)>section>button:hover{
+    background-color: #FD6B11;
+    color: white;
 }
 
 /*media query for large laptop(1440px)*/
