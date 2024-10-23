@@ -116,7 +116,7 @@
     margin-left: 80px;
     margin-right: 80px;
 }
-#project>section:nth-child(2)>section>button{
+#project>section:nth-child(2)>section>a>button{
     width: 150px;
     height: 35px;
     border-radius: 10px;
@@ -127,7 +127,7 @@
     font-weight: bold;
 
 }
-#project>section:nth-child(2)>section>button:hover{
+#project>section:nth-child(2)>section>a>button:hover{
     background-color: #FD6B11;
     color: white;
 }
