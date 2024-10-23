@@ -5,7 +5,7 @@ footer{
     height: 400px;
 
 }
-footer>section>div>img{
+footer>section>div>a>img{
     width: 50px;
     height: 50px;
     position: absolute;
@@ -14,23 +14,23 @@ footer>section>div>img{
     margin: auto;
     margin-top: 35px;
 }
-footer>section:first-child>div:nth-child(1)>img{
+footer>section:first-child>div:nth-child(1)>a>img{
     right: 40vw;
     z-index: 9999;
 }
-footer>section:first-child>div:nth-child(2)>img{
+footer>section:first-child>div:nth-child(2)>a>img{
     right: 20vw;
     z-index: 9999;
 }
-footer>section:first-child>div:nth-child(3)>img{
+footer>section:first-child>div:nth-child(3)>a>img{
     left: 0;
     z-index: 9999;
 }
-footer>section:first-child>div:nth-child(4)>img{
+footer>section:first-child>div:nth-child(4)>a>img{
     left: 20vw;
     z-index: 9999;
 }
-footer>section:first-child>div:nth-child(5)>img{
+footer>section:first-child>div:nth-child(5)>a>img{
     left: 40vw;
     z-index: 9999;
 }
