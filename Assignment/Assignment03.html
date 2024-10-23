@@ -3,121 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 03</title>
+    <style>
+        #Assignment03{
+            background: url("../Asserts/Images/wp3466599.jpg");
+            width: 100vw;
+            height: 900px;
+        }
+        #Assignment03>section{
+            position: relative;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            left: 50px;
+            top: 150px;
+        }
+        #Assignment03>section>div{
+            width: 400px;
+            height: 200px;
+            background: white;
+            /*border: 2px solid #FD6B11;*/
+            background: url("../Asserts/Images/desktop-wallpaper-res-1920x1200-black-minimalist-minimalistic-cute-aesthetic-laptop-dark-thumbnail.jpg" );
+            margin: 60px;
+            border-radius: 30px;
+            box-shadow:-5px -5px 10px dimgray ;
+        }
+        #Assignment03>h1{
+            position: absolute;
+            color: white;
+            top: 30px;
+            left: 750px;
+            font-size: 40px;
+        }
+        .run{
+            width: 100px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: black;
+            color: #ffffff;
+            font-weight: Bold;
+            position: absolute;
+            margin-left: 120px;
+            top: 200px;
+            font-size: 20px;
+        }
+        .code{
+            width: 100px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: black;
+            color: #ffffff;
+            font-weight: Bold;
+            position: absolute;
+            margin-left: 250px;
+            top: 200px;
+            font-size: 20px;
+        }
+        .run1{
+            width: 100px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: black;
+            color: #ffffff;
+            font-weight: Bold;
+            position: absolute;
+            margin-left: 120px;
+            top: 520px;
+            font-size: 20px;
+        }
+        .code1{
+            width: 100px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 15px;
+            background-color: black;
+            color: #ffffff;
+            font-weight: Bold;
+            position: absolute;
+            margin-left: 250px;
+            top: 520px;
+            font-size: 20px;
+        }
+        .case{
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            margin-left: 40px;
+            top: 70px;
+
+        }
+        .case1{
+            position: absolute;
+            font-size: 30px;
+            color: white;
+            margin-left: 40px;
+            top: 390px;
+        }
+        #Assignment03>section>div:hover{
+            box-shadow:-5px -5px 10px #FD6B11 ;
+        }
+        #Assignment03>section>div>a>button:hover{
+            /*border: 2px solid #FD6B11;*/
+            background-color: #FD6B11;
+
+        }
+        #line{
+            position: absolute;
+            width: 400px;
+            height: 5px;
+            background-color: #FD6B11;
+            top: 120px;
+            left: 740px;
+        }
+    </style>
 </head>
-<style>
-    #Assignment03{
-        background: #161616;
-        width: 100vw;
-        height: 900px;
-    }
-    #Assignment03>section{
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        left: 50px;
-        top: 150px;
-    }
-    #Assignment03>section>div{
-        width: 400px;
-        height: 200px;
-        background: white;
-        /*border: 2px solid #FD6B11;*/
-        background: url("../Asserts/Images/desktop-wallpaper-res-1920x1200-black-minimalist-minimalistic-cute-aesthetic-laptop-dark-thumbnail.jpg" );
-        margin: 60px;
-        border-radius: 30px;
-        box-shadow:-5px -5px 10px dimgray ;
-    }
-    #Assignment03>h1{
-        position: absolute;
-        color: white;
-        top: 30px;
-        left: 750px;
-        font-size: 40px;
-    }
-    .run{
-        width: 100px;
-        height: 40px;
-        border: 1px solid white;
-        border-radius: 15px;
-        background-color: black;
-        color: #ffffff;
-        font-weight: Bold;
-        position: absolute;
-        margin-left: 120px;
-        top: 200px;
-        font-size: 20px;
-    }
-    .code{
-        width: 100px;
-        height: 40px;
-        border: 1px solid white;
-        border-radius: 15px;
-        background-color: black;
-        color: #ffffff;
-        font-weight: Bold;
-        position: absolute;
-        margin-left: 250px;
-        top: 200px;
-        font-size: 20px;
-    }
-    .run1{
-        width: 100px;
-        height: 40px;
-        border: 1px solid white;
-        border-radius: 15px;
-        background-color: black;
-        color: #ffffff;
-        font-weight: Bold;
-        position: absolute;
-        margin-left: 120px;
-        top: 520px;
-        font-size: 20px;
-    }
-    .code1{
-        width: 100px;
-        height: 40px;
-        border: 1px solid white;
-        border-radius: 15px;
-        background-color: black;
-        color: #ffffff;
-        font-weight: Bold;
-        position: absolute;
-        margin-left: 250px;
-        top: 520px;
-        font-size: 20px;
-    }
-    .case{
-        position: absolute;
-        font-size: 30px;
-        color: white;
-        margin-left: 40px;
-        top: 70px;
 
-    }
-    .case1{
-        position: absolute;
-        font-size: 30px;
-        color: white;
-        margin-left: 40px;
-        top: 390px;
-    }
-    #Assignment03>section>div:hover{
-        box-shadow:-5px -5px 10px #FD6B11 ;
-    }
-    #Assignment03>section>div>a>button:hover{
-        /*border: 2px solid #FD6B11;*/
-        background-color: #FD6B11;
-
-    }
-    #line{
-        position: absolute;
-        width: 400px;
-        height: 5px;
-        background-color: #FD6B11;
-        top: 120px;
-        left: 740px;
-    }
-</style>
 <body>
 <main id="Assignment03">
     <div id="line"></div>
