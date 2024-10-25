@@ -156,7 +156,7 @@
         color: white;
         font-size: 18px;
         left: 66vw;
-        margin-top: 32vw;
+        margin-top: 47vw;
         border-radius: 5px;
         background-color: #FD6B11;
         box-shadow: 4px 4px 50px white;
@@ -270,6 +270,17 @@
         background-color: #120D06;
 
     }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        left: 66vw;
+        margin-top: 55vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
+
+    }
 
 }
 
@@ -355,6 +366,17 @@
         margin-top: 65vw;
         border-radius: 5px;
         background-color: #120D06;
+
+    }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        left: 61vw;
+        margin-top: 65vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
 
     }
 }
@@ -443,6 +465,17 @@
         background-color: #120D06;
 
     }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        left: 28vw;
+        margin-top: 163vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
+
+    }
 }
 
 /*media query for Mobile size(375px)*/
@@ -529,6 +562,17 @@
         background-color: #120D06;
 
     }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 13px;
+        left: 28vw;
+        margin-top: 183vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
+
+    }
 }
 
 /*media query for Mobile Small size(320px)*/
@@ -613,6 +657,17 @@
         margin-top: 213vw;
         border-radius: 5px;
         background-color: #120D06;
+
+    }
+    #about>section:nth-child(5)>button:hover{
+        position: absolute;
+        color: white;
+        font-size: 13px;
+        left: 25vw;
+        margin-top: 213vw;
+        border-radius: 5px;
+        background-color: #FD6B11;
+        box-shadow: 4px 4px 50px white;
 
     }
 }
