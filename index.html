@@ -52,14 +52,14 @@
     <nav>
         <ul class="sidebar">
             <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="index.html#welcome">HOME</a></li>
-            <li><a href="index.html#about">ABOUT</a></li>
-            <li><a href="index.html#skill">SKILL</a></li>
-            <li><a href="index.html#gallery">GALLERY</a></li>
-            <li><a href="index.html#project">PROJECT</a></li>
-            <li><a href="index.html#assignment">ASSIGNMENT</a></li>
-            <li><a href="index.html#education">EDUCATION</a></li>
-            <li><a href="index.html#contact">CONTACT</a></li>
+            <li><a href="index.html#welcome" onclick="navigateWithinPage(event)">HOME</a></li>
+            <li><a href="index.html#about" onclick="navigateWithinPage(event)">ABOUT</a></li>
+            <li><a href="index.html#skill" onclick="navigateWithinPage(event)">SKILL</a></li>
+            <li><a href="index.html#gallery" onclick="navigateWithinPage(event)">GALLERY</a></li>
+            <li><a href="index.html#project" onclick="navigateWithinPage(event)">PROJECT</a></li>
+            <li><a href="index.html#assignment" onclick="navigateWithinPage(event)">ASSIGNMENT</a></li>
+            <li><a href="index.html#education" onclick="navigateWithinPage(event)">EDUCATION</a></li>
+            <li><a href="index.html#contact" onclick="navigateWithinPage(event)">CONTACT</a></li>
         </ul>
         <ul>
             <li class="hideOnMobile"><a href="index.html#welcome">HOME</a></li>
@@ -671,6 +671,16 @@
     function hideSidebar(){
         const sidebar = document.querySelector('.sidebar')
         sidebar.style.display = 'none'
+    }
+    function navigateWithinPage(event) {
+        event.preventDefault(); // Prevent default behavior
+        hideSidebar(); // Hide sidebar after link click
+        const targetId = event.target.getAttribute("href").split("#")[1];
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: "smooth" });
+        }
     }
 </script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
