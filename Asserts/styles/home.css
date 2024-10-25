@@ -792,12 +792,12 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 60px;
-        width: 60px;
+        height: 55px;
+        width: 55px;
         left: 0;
         right: 0;
         margin: auto;
-        bottom: 70px;
+        bottom: 50px;
         position: absolute;
         border-radius: 20px;
         background-color: #FD6B11;
@@ -931,14 +931,14 @@
 
     }
     #Home>section:nth-child(4)>div:hover {
-        height: 60px;
-        width: 60px;
+        height: 55px;
+        width: 55px;
         left: 0;
         right: 0;
         margin: auto;
         position: absolute;
         border-radius: 20px;
-        bottom: 70px;
+        bottom: 50px;
         background-color: #FD6B11;
         border: 1px solid white;
         box-shadow: 10px 5px 50px grey;
