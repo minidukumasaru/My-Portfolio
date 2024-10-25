@@ -442,8 +442,7 @@ h1{
 
     .back {
         background: #cedce7;
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    }
+        background: linear-gradient(45deg, black 0%, #596a72 100%);    }
 
     .front:after {
         position: absolute;
@@ -606,8 +605,7 @@ h1{
 
     .back {
         background: #cedce7;
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    }
+        background: linear-gradient(45deg, black 0%, #596a72 100%);    }
 
     .front:after {
         position: absolute;
@@ -773,8 +771,7 @@ h1{
 
     .back {
         background: #cedce7;
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    }
+        background: linear-gradient(45deg, black 0%, #596a72 100%);    }
 
     .front:after {
         position: absolute;
@@ -939,8 +936,7 @@ h1{
 
     .back {
         background: #cedce7;
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    }
+        background: linear-gradient(45deg, black 0%, #596a72 100%);    }
 
     .front:after {
         position: absolute;
