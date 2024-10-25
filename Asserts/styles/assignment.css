@@ -201,11 +201,13 @@ h1{
 /*}*/
 
 .btn{
-    width: 130px;
+    width: 150px;
     height: 40px;
     background: #FD6B11;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -278,7 +280,7 @@ h1{
 
     .back {
         background: #cedce7;
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
+        background: linear-gradient(45deg, black 0%, #596a72 100%);
     }
 
     .front:after {
@@ -362,7 +364,7 @@ h1{
     }
 
     .btn {
-        width: 120px;
+        width: 140px;
         height: 40px;
         background: #FD6B11;
         border-radius: 10px;
@@ -525,7 +527,7 @@ h1{
     }
 
     .btn {
-        width: 120px;
+        width: 140px;
         height: 40px;
         background: #FD6B11;
         border-radius: 10px;
@@ -694,6 +696,7 @@ h1{
         background: #FD6B11;
         border-radius: 10px;
         margin-bottom: 20px;
+        font-size: 13px;
     }
 }
 
