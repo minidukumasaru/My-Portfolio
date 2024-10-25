@@ -3,6 +3,7 @@
     width: 100vw;
     height: 800px;
     /*position: relative;*/
+    padding-top: 80px;
 }
 #about>section:first-child>div:nth-child(3)>h3{
     color: #FD6B11;

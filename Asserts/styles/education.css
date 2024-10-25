@@ -2,6 +2,7 @@
     width: 100vw;
     height: 1600px;
     background: #120D06;
+    padding-top: 80px;
 }
 #education>section:first-child>h3{
     color: #FD6B11;

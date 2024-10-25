@@ -2,6 +2,7 @@
     background: #120D06;
     width: 100vw;
     height: 800px;
+    padding-top: 80px;
 }
 #skill>section:first-child>h3{
     color: #FD6B11;

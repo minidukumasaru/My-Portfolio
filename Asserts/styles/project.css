@@ -3,6 +3,7 @@
     width: 100vw;
     height: 900px;
     display: flex;
+    padding-top: 80px;
 
 }
 #project>section:nth-child(1)>h3{
