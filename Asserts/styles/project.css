@@ -375,6 +375,17 @@
         margin-left: 40px;
         margin-right: 50px;
     }
+    #project>section:nth-child(2)>section>a>button{
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: white;
+        margin-left: 50px;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
 }
 
 /*media query for Tablet size(768px)*/
@@ -497,6 +508,17 @@
         font-size: 12px;
         margin-left: 40px;
         margin-right: 40px;
+    }
+    #project>section:nth-child(2)>section>a>button{
+        width: 150px;
+        height: 35px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: white;
+        margin-left: 30px;
+        font-size: 15px;
+        font-weight: bold;
+
     }
 }
 
