@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>portfolio</title>
@@ -44,13 +44,14 @@
 <body>
 <!--Header section-->
 <header>
-    <section>
+    <section class="my-photo">
         <div></div>
         <img src="Asserts/Images/IMG_5276.PNG" title="My photo" alt="My Photo" width="50">
     </section>
     <!--nav section-->
     <nav>
-        <ul>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="34px" viewBox="0 -960 960 960" width="34px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="index.html#welcome">HOME</a></li>
             <li><a href="index.html#about">ABOUT</a></li>
             <li><a href="index.html#skill">SKILL</a></li>
@@ -59,6 +60,17 @@
             <li><a href="index.html#assignment">ASSIGNMENT</a></li>
             <li><a href="index.html#education">EDUCATION</a></li>
             <li><a href="index.html#contact">CONTACT</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="index.html#welcome">HOME</a></li>
+            <li class="hideOnMobile"><a href="index.html#about">ABOUT</a></li>
+            <li class="hideOnMobile"><a href="index.html#skill">SKILL</a></li>
+            <li class="hideOnMobile"><a href="index.html#gallery">GALLERY</a></li>
+            <li class="hideOnMobile"><a href="index.html#project">PROJECT</a></li>
+            <li class="hideOnMobile"><a href="index.html#assignment">ASSIGNMENT</a></li>
+            <li class="hideOnMobile"><a href="index.html#education">EDUCATION</a></li>
+            <li class="hideOnMobile"><a href="index.html#contact">CONTACT</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="44px" viewBox="0 -960 960 960" width="44px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
 </header>
@@ -651,7 +663,16 @@
 </footer>
 
 
-
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
